@@ -20,3 +20,5 @@ Hi, I am a second-year graduate student in the [Master in Computational Social S
 
 
 My academic interests include **corporate behavior**, **information technology**, **financial economics**, and **entrepreneurship**. I am passionate about leveraging different technology to process and analyze information, exploring its real economic consequences, and understanding how it shapes stakeholders' beliefs and influence people's behaviors. Through my research, I aim to reduce information asymmetry and contribute to improving social welfare.
+
+During my spare time, I enjoy watching movies🎬, travelling✈️, and palying badminton🏸️. I also play pipa, flute as well :)
