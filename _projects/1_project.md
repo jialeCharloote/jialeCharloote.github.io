@@ -2,7 +2,7 @@
 layout: page
 title: Mining Mines
 description: with background image
-img: /assets/img/3.jpg
+img: /assets/img/mine_5.9487789185563_-1.916576954470561.jpg
 importance: 1
 category: work
 related_publications: false
