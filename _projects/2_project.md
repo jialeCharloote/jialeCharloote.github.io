@@ -3,7 +3,7 @@ layout: page
 title: Greenwashing
 description: An analysis of corporate greenwashing behavior in ESG disclosures
 img: assets/img/3.jpg
-importance: 4
+importance: 2
 category: work
 ---
 
