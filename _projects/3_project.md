@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: ESG Sentiment & Financail Performance 
+description: Explore the relationship between ESG sentiment and financial performance
+img: assets/img/esg.webp
+redirect: https://github.com/jialeCharloote/Exploring-ESG-Sentiment-and-Financial-Performance
 importance: 3
 category: work
 ---
