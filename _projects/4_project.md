@@ -3,7 +3,7 @@ layout: page
 title: EDGAR 
 description: Analysis of EDGAR log data from 2020 to 2024
 img: assets/img/edgar.webp
-importance: 3
+importance: 4
 category: work
 ---
 
