@@ -1,81 +1,37 @@
 ---
 layout: page
 title: Greenwashing
-description: a project with a background image and giscus comments
+description: An analysis of corporate greenwashing behavior in ESG disclosures
 img: assets/img/3.jpg
 importance: 2
 category: work
-giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Greenwashing: Corporate ESG Disclosure
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Definition: Selective Disclosure
+Greenwashing refers to a company's practice of retaining negative environmental/social performance information and disclosing only positive information related to its environmental/social impact.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Signs of Greenwashing (Possible X)
+- **Leveraging self-disclosure and company commitments**
+- **Divestitures**: Divesting pollutive assets to firms facing weaker environmental pressures (Duchin et al., 2022, p. 3).
+- **Vague and ambitious words without practical action**: Policies vs. targets. Specific goals versus vague descriptive language.
+- **No proof**: Environmental claims lacking easily accessible supporting information or reliable third-party certification.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Identify Greenwashing (Possible Y)
+- **Need more objective measures**: e.g., total pollution, violations, misconduct, employee gender diversity.
+- **Involved in greenwashing controversies**: Look for related news using keywords such as ‘litigation’, ‘lawsuit’, ‘fine’, ‘sue’, etc.
+- **Companies violating regulations**: Scrutinize news, social media (Twitter), and regulatory violations.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Related Literature
+- **Greenwash: Corporate Environmental Disclosure under Threat of Audit** [Link: https://doi.org/10.1111/j.1530-9134.2010.00282.x]
+- **Diversity Washing (Baker et al., 2022)**: Measures based on the distance between DEI commitment disclosure and actual diversity.
+- **Sustainability or Greenwashing (Duchin et al., 2022)**: Poisson DiD regression model exploring pollution levels and abatement activities.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Poisson DiD Regression:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+```python
+Y_i,t = β Divested_i × Post_i,t + α_i + τ_t + ε_i,t
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
 {% endraw %}
