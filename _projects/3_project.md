@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ESG Sentiment & Financail Performance 
+title: ESG Disclosure 
 description: Explore the relationship between ESG sentiment and financial performance
 img: assets/img/esg.webp
 redirect: https://github.com/jialeCharloote/Exploring-ESG-Sentiment-and-Financial-Performance
