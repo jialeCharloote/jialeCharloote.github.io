@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Mining Mines
-description: with background image
+description: Accurate Mining Activities Administration
 img: /assets/img/mine_5.9487789185563_-1.916576954470561.jpg
+redirect: https://mining-mine.github.io/
 importance: 1
 category: work
 related_publications: false
 ---
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
