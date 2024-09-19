@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Greenwashing
+title: Mining Mines
 description: with background image
 img: /assets/img/3.jpg
 importance: 1
