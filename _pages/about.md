@@ -19,6 +19,6 @@ social: True # includes social icons at the bottom of the page
 Hi, I am a second-year graduate student in the [Master in Computational Social Science Program (Economic Concentration)](https://economics.uchicago.edu/graduate-study/macss-econ) at [the University of Chicago](https://www.uchicago.edu/). I hold a B.B.A. in Applied Economics from [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en) and was an exchange student at [Copenhagen Business School](https://www.cbs.dk/en) during the Fall of 2021.
 
 
-My academic interests include **corporate behavior**, **information technology**, **law and economics**, and **entrepreneurship**. I am passionate about leveraging different technology to process and analyze information, exploring its real economic consequences, and understanding how it shapes stakeholders' beliefs and influence people's behaviors. Through my research, I aim to reduce information asymmetry and contribute to improving social welfare.
+My academic interests include **corporate behavior**, **law and economics**, **entrepreneurship** and **artificial intelligence**. I am passionate about leveraging different technologies to process and analyze information, understanding how it shapes stakeholders' behaviors and exploring its real economic consequences. Through my research, I aim to reduce information asymmetry and contribute to improving social welfare.
 
-During my spare time, I enjoy watching movies🎬, travelling✈️, and palying badminton🏸️. I also play pipa, flute :)
+In my spare time, I enjoy watching movies 🎬, listening to music 🎵, traveling ✈️, and playing sports 🏸. I also play the pipa and flute 🪈, and I'm hoping to learn more instruments in the future.
