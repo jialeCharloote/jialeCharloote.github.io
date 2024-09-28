@@ -22,7 +22,7 @@
       "url": "",
       "startDate": "2024-06-01",
       "endDate": "2024-08-01",
-      "summary": "Conducted literature review on regulatory practices related to workplace safety and drafted a research proposal on California's AB 701 law.\nCollected and cleaned OSHA data to perform an event study on injury rates.",
+      "summary": "Conducted literature review on regulatory practices related to workplace safety and drafted a research proposal on California's AB 701 law. Collected and cleaned OSHA data to perform an event study on injury rates.",
       "highlights": ["Literature review on AB 701", "Event study analysis"]
     },
     {
@@ -30,10 +30,8 @@
       "position": "Research Assistant",
       "url": "",
       "startDate": "2023-12-15",
-      "endDate": "2024-05-025",
-      "summary": "Collected, verified, and cleaned data on gas flaring activities and asset transactions for oil companies operating in Africa,
-      ensuring accuracy of corporate headquarters and stock exchange listings. \nConducted robustness analysis using Stata to validate findings; Drafted sections of online appendix including methodology
-details and supplementary analyses, contributing to comprehensive documentation of the research",
+      "endDate": "2024-05-25",
+      "summary": "Collected, verified, and cleaned data on gas flaring activities and asset transactions for oil companies operating in Africa, ensuring accuracy of corporate headquarters and stock exchange listings. Conducted robustness analysis using Stata to validate findings; Drafted sections of online appendix including methodology details and supplementary analyses, contributing to comprehensive documentation of the research.",
       "highlights": ["Gas flaring data collection", "Cloud-based data processing"]
     },
     {
@@ -42,9 +40,7 @@ details and supplementary analyses, contributing to comprehensive documentation 
       "url": "",
       "startDate": "2022-04-01",
       "endDate": "2022-06-01",
-      "summary": "Conducted in-depth quantitative research on logistics technology companies; Performed competitor analysis and market size
-analysis; Produced 8-page analysis report of recommended companies for IPO team. \nConducted IPO due diligence and filing preparation for real estate company; Verified relevant financial information and
-compiled the drafts; Assisted in writing public offering prospectus report",
+      "summary": "Conducted in-depth quantitative research on logistics technology companies; Performed competitor analysis and market size analysis; Produced 8-page analysis report of recommended companies for IPO team. Conducted IPO due diligence and filing preparation for real estate company; Verified relevant financial information and compiled the drafts; Assisted in writing public offering prospectus report.",
       "highlights": ["Competitor analysis", "IPO due diligence"]
     }
   ],
@@ -81,40 +77,22 @@ compiled the drafts; Assisted in writing public offering prospectus report",
     {
       "name": "Quantitative & Computational Methods",
       "level": "Advanced",
-      "keywords": [
-        "Regressions",
-        "Causal Inference",
-        "Time Series Analysis"
-      ]
+      "keywords": ["Regressions", "Causal Inference", "Time Series Analysis"]
     },
     {
       "name": "Data Processing",
       "level": "Advanced",
-      "keywords": [
-        "Data Scraping",
-        "Data Cleaning",
-        "Large-Scale Data",
-        "Cloud Computing (AWS, GEE)"
-      ]
+      "keywords": ["Data Scraping", "Data Cleaning", "Large-Scale Data", "Cloud Computing (AWS, GEE)"]
     },
     {
       "name": "Machine Learning",
       "level": "Advanced",
-      "keywords": [
-        "Random Forests",
-        "Convolutional Neural Networks"
-      ]
+      "keywords": ["Random Forests", "Convolutional Neural Networks"]
     },
     {
       "name": "Software",
       "level": "Advanced",
-      "keywords": [
-        "Python (Pandas, NumPy, SciPy)",
-        "Stata",
-        "R",
-        "MATLAB",
-        "EViews"
-      ]
+      "keywords": ["Python (Pandas, NumPy, SciPy)", "Stata", "R", "MATLAB", "EViews"]
     }
   ],
   "projects": [
