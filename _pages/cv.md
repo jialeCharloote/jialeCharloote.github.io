@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: CV (Charlotte ZHOU)_EC[0908].pdf
+cv_pdf: example_pdf.pdf
 description: 
 toc:
   sidebar: left
