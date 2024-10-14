@@ -64,11 +64,10 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 ### 3. Total Requests by Form Category
 
-Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K, Form 10-Q, Form 8-K, Form 424, Form S, Form SC, Form 4, Form DEF, and Other.  
-
-
 ![Figure 3](byform.png)  
 
+
+Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K, Form 10-Q, Form 8-K, Form 424, Form S, Form SC, Form 4, Form DEF, and Other.  
 
 - **Form 4 (Insider Trading Reports)**: This form consistently receives the most requests, reflecting strong interest in tracking insider trading.  
 - **10-K and 10-Q**: These key financial reports show steady growth in demand.  
