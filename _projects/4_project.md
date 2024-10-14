@@ -40,7 +40,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 ### 1. Median Requests by Weekday & Holidays
 
 
-![Figure 1](assets/img/byweekday.png)  
+![Figure1](jialeCharloote.github.io/assets/img/byweekday.png)  
 
 
 - We observed a dramatic increase in search volume from 2020 to 2024, indicating growing reliance on EDGAR filings.
@@ -49,7 +49,8 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 ### 2. Total Downloads by Month (2020-2024)
 
-![Figure 2](assets/img/bymonth.png)  
+
+![Figure 2](jialeCharloote.github.io/assets/img/bymonth.png)  
 
 
 - **May 2024** recorded the highest download volume, surpassing 2 billion requests.
@@ -61,7 +62,8 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K, Form 10-Q, Form 8-K, Form 424, Form S, Form SC, Form 4, Form DEF, and Other.  
 
-![Figure 3](assets/img/byform.png)  
+
+![Figure 3](jialeCharloote.github.io/assets/img/byform.png)  
 
 
 - **Form 4 (Insider Trading Reports)**: This form consistently receives the most requests, reflecting strong interest in tracking insider trading.  
@@ -70,22 +72,7 @@ Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K
 - **DEF and SC Filings**: Though less common, these filings show moderate growth, indicating increased relevance for niche investor segments.
   
 
-### 4. Top 10 Companies by EDGAR Downloads
-
-| **Rank** | **2020**                | **2021**                | **2022**                | **2023**                | **2024**                |
-|----------|-------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
-| 1        | Microsoft Corporation   | Microsoft Corporation   | Microsoft Corporation   | Oracle Corporation      | Oracle Corporation      |
-| 2        | Amazon.com, Inc.        | IBM                     | Oracle Corporation      | IBM                     | IBM                     |
-| 3        | Apple Inc.              | Zoom Video Communications | IBM                    | Microsoft Corporation   | Microsoft Corporation   |
-| 4        | Meta Platforms, Inc.    | Tesla, Inc.             | American Airlines       | Coca-Cola Company       | Tesla, Inc.             |
-| 5        | Airbnb, Inc.            | NVIDIA Corporation      | Apple Inc.              | Alphabet Inc.           | Coca-Cola Company       |
-| 6        | IBM                     | Procter & Gamble        | Tesla, Inc.             | Qualcomm Inc.           | Intel Corporation       |
-| 7        | Intel Corporation       | Apple Inc.              | NVIDIA Corporation      | Tesla, Inc.             | PepsiCo, Inc.           |
-| 8        | Netflix, Inc.           | Alphabet Inc.           | Alphabet Inc.           | Apple Inc.              | Netflix, Inc.           |
-| 9        | NVIDIA Corporation      | Qualcomm Inc.           | Coca-Cola Company       | Procter & Gamble        | NVIDIA Corporation      |
-| 10       | Tesla, Inc.             | CrowdStrike             | Qualcomm Inc.           | NVIDIA Corporation      | Qualcomm Inc.           |
-
-## Top 10 Companies by EDGAR Downloads (2020-2024)
+### 4. Top 10 Companies by EDGAR Downloads (2020-2024)
 
 <table>
   <thead>
@@ -194,6 +181,7 @@ The analysis of EDGAR log data from 2020 to 2024 highlights evolving investor at
 Several events since 2020, including **COVID-19**, **Russia’s invasion of Ukraine**, **the Israel-Gaza conflict**, and the **rise of AI technologies** like ChatGPT, have shaped market behavior. For example, our content analysis shows that requests for filings related to Russia increased ahead of the invasion.
 
 ### Potential Research Extensions
+
 - **Market Reactions**: Analyze how certain filings (e.g., 8-K, Form 4) affect stock prices following high download volumes.
 - **Impact of Global Events**: Correlate download patterns with major events like COVID-19 or advancements in AI.
 - **Sentiment Analysis**: Use NLP to assess how investor sentiment shifts with new disclosures, particularly for tech companies.
