@@ -9,6 +9,8 @@ category: work
 # Analyzing EDGAR Log Data (2020-2024): Key Insights and Trends
 
 ## I. Introduction
+
+
 EDGAR (Electronic Data Gathering, Analysis, and Retrieval) is an online database maintained by the U.S. Securities and Exchange Commission (SEC). It collects and provides public access to filings from companies required to submit documents to the SEC. These filings include financial statements, disclosures, and other regulatory reports such as Form 10-K (annual reports), Form 10-Q (quarterly reports), Form 8-K (event-driven reports), and Form 4 (insider trading reports). EDGAR plays a crucial role in enhancing transparency, offering investors, analysts, and researchers critical information to assess corporate performance and regulatory compliance.
 
 EDGAR Log Files record internet search traffic for EDGAR filings, capturing detailed user interactions with the EDGAR system. These log files include metadata such as search activities, file access, and document downloads. They typically contain timestamps, file types accessed, and document names.
@@ -29,6 +31,8 @@ The new dataset from 2020 no longer provides IP addresses. While this shift limi
 ---
 
 ## III. Data Processing
+
+
 We downloaded and processed the EDGAR log data to obtain download dates and accession IDs. We counted the number of downloads per day per accession ID per CIK (Central Index Key). Using the SEC’s index, we supplemented this with information such as form type, filing date, and company name.
 
 Due to the dataset’s size—each daily log file contains millions of download records—we used the **UChicago Midway3 cloud computing platform** to process the files. Our code for processing and analysis is available [here](https://github.com).
@@ -40,7 +44,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 ### 1. Median Requests by Weekday & Holidays
 
 
-![Figure1](jialeCharloote.github.io/assets/img/byweekday.png)  
+![Figure1](byweekday.png)  
 
 
 - We observed a dramatic increase in search volume from 2020 to 2024, indicating growing reliance on EDGAR filings.
@@ -50,7 +54,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 ### 2. Total Downloads by Month (2020-2024)
 
 
-![Figure 2](jialeCharloote.github.io/assets/img/bymonth.png)  
+![Figure 2](bymonth.png)  
 
 
 - **May 2024** recorded the highest download volume, surpassing 2 billion requests.
@@ -63,7 +67,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K, Form 10-Q, Form 8-K, Form 424, Form S, Form SC, Form 4, Form DEF, and Other.  
 
 
-![Figure 3](jialeCharloote.github.io/assets/img/byform.png)  
+![Figure 3](byform.png)  
 
 
 - **Form 4 (Insider Trading Reports)**: This form consistently receives the most requests, reflecting strong interest in tracking insider trading.  
