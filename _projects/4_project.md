@@ -38,20 +38,37 @@ Due to the dataset’s size—each daily log file contains millions of download 
 ## IV. Key Findings
 
 ### 1. Median Requests by Weekday & Holidays
+
+
+![Figure 1](assets/img/byweekday.png)  
+
+
 - We observed a dramatic increase in search volume from 2020 to 2024, indicating growing reliance on EDGAR filings.
 - Activity drops on weekends and holidays, reflecting reduced investor engagement during non-trading days.
 
+
 ### 2. Total Downloads by Month (2020-2024)
+
+![Figure 2](assets/img/bymonth.png)  
+
+
 - **May 2024** recorded the highest download volume, surpassing 2 billion requests.
-- **Seasonality**: Downloads peak between April and June, coinciding with Q1 and Q2 reporting seasons.
+- **Seasonality**: Downloads peak between April and June for most years, coinciding with Q1 and Q2 reporting seasons.
 - **Trend**: Download volumes have steadily increased, showing rising investor interest in financial disclosures.
 
+
 ### 3. Total Requests by Form Category
+
 Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K, Form 10-Q, Form 8-K, Form 424, Form S, Form SC, Form 4, Form DEF, and Other.  
+
+![Figure 3](assets/img/byform.png)  
+
+
 - **Form 4 (Insider Trading Reports)**: This form consistently receives the most requests, reflecting strong interest in tracking insider trading.  
 - **10-K and 10-Q**: These key financial reports show steady growth in demand.  
 - **Form 8-K**: Requests spiked in 2023, suggesting heightened attention to event-driven disclosures like earnings announcements and mergers.  
 - **DEF and SC Filings**: Though less common, these filings show moderate growth, indicating increased relevance for niche investor segments.
+  
 
 ### 4. Top 10 Companies by EDGAR Downloads
 
@@ -68,7 +85,103 @@ Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K
 | 9        | NVIDIA Corporation      | Qualcomm Inc.           | Coca-Cola Company       | Procter & Gamble        | NVIDIA Corporation      |
 | 10       | Tesla, Inc.             | CrowdStrike             | Qualcomm Inc.           | NVIDIA Corporation      | Qualcomm Inc.           |
 
-#### Analysis
+## Top 10 Companies by EDGAR Downloads (2020-2024)
+
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>2020</th>
+      <th>2021</th>
+      <th>2022</th>
+      <th>2023</th>
+      <th>2024</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td style="color: blue;">Microsoft Corporation</td>
+      <td style="color: blue;">Microsoft Corporation</td>
+      <td style="color: blue;">Microsoft Corporation</td>
+      <td style="color: green;">Oracle Corporation</td>
+      <td style="color: green;">Oracle Corporation</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td style="color: orange;">Amazon.com, Inc.</td>
+      <td style="color: purple;">IBM</td>
+      <td style="color: green;">Oracle Corporation</td>
+      <td style="color: purple;">IBM</td>
+      <td style="color: purple;">IBM</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td style="color: red;">Apple Inc.</td>
+      <td style="color: gray;">Zoom Video Communications</td>
+      <td style="color: purple;">IBM</td>
+      <td style="color: blue;">Microsoft Corporation</td>
+      <td style="color: blue;">Microsoft Corporation</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td style="color: teal;">Meta Platforms, Inc.</td>
+      <td style="color: black;">Tesla, Inc.</td>
+      <td style="color: brown;">American Airlines</td>
+      <td style="color: maroon;">Coca-Cola Company</td>
+      <td style="color: black;">Tesla, Inc.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td style="color: pink;">Airbnb, Inc.</td>
+      <td style="color: green;">NVIDIA Corporation</td>
+      <td style="color: red;">Apple Inc.</td>
+      <td style="color: orange;">Alphabet Inc.</td>
+      <td style="color: maroon;">Coca-Cola Company</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td style="color: purple;">IBM</td>
+      <td style="color: brown;">Procter & Gamble</td>
+      <td style="color: black;">Tesla, Inc.</td>
+      <td style="color: darkcyan;">Qualcomm Inc.</td>
+      <td style="color: gray;">Intel Corporation</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td style="color: gray;">Intel Corporation</td>
+      <td style="color: red;">Apple Inc.</td>
+      <td style="color: green;">NVIDIA Corporation</td>
+      <td style="color: black;">Tesla, Inc.</td>
+      <td style="color: orange;">PepsiCo, Inc.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td style="color: darkred;">Netflix, Inc.</td>
+      <td style="color: orange;">Alphabet Inc.</td>
+      <td style="color: orange;">Alphabet Inc.</td>
+      <td style="color: red;">Apple Inc.</td>
+      <td style="color: darkred;">Netflix, Inc.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td style="color: green;">NVIDIA Corporation</td>
+      <td style="color: darkcyan;">Qualcomm Inc.</td>
+      <td style="color: maroon;">Coca-Cola Company</td>
+      <td style="color: brown;">Procter & Gamble</td>
+      <td style="color: green;">NVIDIA Corporation</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td style="color: black;">Tesla, Inc.</td>
+      <td style="color: darkgray;">CrowdStrike</td>
+      <td style="color: darkcyan;">Qualcomm Inc.</td>
+      <td style="color: green;">NVIDIA Corporation</td>
+      <td style="color: darkcyan;">Qualcomm Inc.</td>
+    </tr>
+  </tbody>
+</table>
+
 - **Tech Dominance**: Microsoft dominated from 2020 to 2022, but Oracle took the top spot in 2023 and 2024.
 - **IBM’s Consistency**: IBM maintained a top-3 position across all five years, reflecting sustained interest in its filings.
 - **Surging Interest**: Companies like Oracle, Coca-Cola, and Tesla saw increased engagement in 2023-2024, suggesting shifts in market focus.
