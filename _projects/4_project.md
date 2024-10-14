@@ -15,7 +15,7 @@ EDGAR (Electronic Data Gathering, Analysis, and Retrieval) is an online database
 
 EDGAR Log Files record internet search traffic for EDGAR filings, capturing detailed user interactions with the EDGAR system. These log files include metadata such as search activities, file access, and document downloads. They typically contain timestamps, file types accessed, and document names.
 
-The availability of EDGAR log data was discontinued after 2017 but resumed in May 2020. From what we know, no one has processed the new dataset yet. It differs from the earlier version—most notably, it no longer provides IP addresses. More detailed information about this dataset can be found on the [SEC's official website](https://www.sec.gov).
+The availability of EDGAR log data was discontinued after 2017 but resumed in May 2020. From what we know, no one has processed the new dataset yet. It differs from the earlier version—most notably, it no longer provides IP addresses. More detailed information about this dataset can be found on the [SEC's official website](https://www.sec.gov/data-research/sec-markets-data/edgar-log-file-data-sets).
 
 In this blog, we aim to provide a short descriptive analysis of the new EDGAR dataset (June 1, 2020, to June 31, 2024) and discuss its potential applications in related research.
 
