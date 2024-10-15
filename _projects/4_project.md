@@ -1,15 +1,13 @@
 ---
 layout: page
 title: EDGAR 
-description: Analysis of EDGAR log data from 2020 to 2024
+description: Analysis of EDGAR log data from 2020 to 2024：Key Insights and Trends
 img: assets/img/edgar.webp
 importance: 4
 category: work
 ---
-# Analyzing EDGAR Log Data (2020-2024): Key Insights and Trends
 
 ## I. Introduction
-
 
 EDGAR (Electronic Data Gathering, Analysis, and Retrieval) is an online database maintained by the U.S. Securities and Exchange Commission (SEC). It collects and provides public access to filings from companies required to submit documents to the SEC. These filings include financial statements, disclosures, and other regulatory reports such as Form 10-K (annual reports), Form 10-Q (quarterly reports), Form 8-K (event-driven reports), and Form 4 (insider trading reports). EDGAR plays a crucial role in enhancing transparency, offering investors, analysts, and researchers critical information to assess corporate performance and regulatory compliance.
 
@@ -43,9 +41,15 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 ### 1. Median Requests by Weekday & Holidays
 
-
-![Figure1](byweekday.png)  
-
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/byweekday.jpg" title="byweekday" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+  Figure 1
+</div>
 
 - We observed a dramatic increase in search volume from 2020 to 2024, indicating growing reliance on EDGAR filings.
 - Activity drops on weekends and holidays, reflecting reduced investor engagement during non-trading days.
