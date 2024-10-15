@@ -1,6 +1,7 @@
 ---
 layout: page
 title: EDGAR 
+date: 2024-10-15 
 description: Analysis of EDGAR log data from 2020 to 2024:Key Insights and Trends
 img: assets/img/edgar.webp
 importance: 4
