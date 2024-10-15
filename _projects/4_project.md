@@ -57,9 +57,15 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 ### 2. Total Downloads by Month (2020-2024)
 
-
-![Figure 2](bymonth.png)  
-
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bymonth.jpg" title="bymonth" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+  Figure 2
+</div>
 
 - **May 2024** recorded the highest download volume, surpassing 2 billion requests.
 - **Seasonality**: Downloads peak between April and June for most years, coinciding with Q1 and Q2 reporting seasons.
@@ -68,7 +74,15 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 ### 3. Total Requests by Form Category
 
-![Figure 3](byform.png)  
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bymonth.jpg" title="byform" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+  Figure 3
+</div>
 
 
 Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K, Form 10-Q, Form 8-K, Form 424, Form S, Form SC, Form 4, Form DEF, and Other.  
@@ -80,6 +94,7 @@ Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K
   
 
 ### 4. Top 10 Companies by EDGAR Downloads (2020-2024)
+
 
 <table>
   <thead>
@@ -176,6 +191,7 @@ Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K
   </tbody>
 </table>
 
+
 - **Tech Dominance**: Microsoft dominated from 2020 to 2022, but Oracle took the top spot in 2023 and 2024.
 - **IBM’s Consistency**: IBM maintained a top-3 position across all five years, reflecting sustained interest in its filings.
 - **Surging Interest**: Companies like Oracle, Coca-Cola, and Tesla saw increased engagement in 2023-2024, suggesting shifts in market focus.
@@ -187,7 +203,7 @@ The analysis of EDGAR log data from 2020 to 2024 highlights evolving investor at
 
 Several events since 2020, including **COVID-19**, **Russia’s invasion of Ukraine**, **the Israel-Gaza conflict**, and the **rise of AI technologies** like ChatGPT, have shaped market behavior. For example, our content analysis shows that requests for filings related to Russia increased ahead of the invasion.
 
-### Potential Research Extensions
+### Potential Research Extensions：
 
 - **Market Reactions**: Analyze how certain filings (e.g., 8-K, Form 4) affect stock prices following high download volumes.
 - **Impact of Global Events**: Correlate download patterns with major events like COVID-19 or advancements in AI.
