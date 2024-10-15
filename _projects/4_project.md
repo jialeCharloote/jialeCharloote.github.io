@@ -189,7 +189,7 @@ Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K
     </tr>
   </tbody>
 </table>
-
+<br><br>
 
 - **Tech Dominance**: Microsoft dominated from 2020 to 2022, but Oracle took the top spot in 2023 and 2024.
 - **IBM’s Consistency**: IBM maintained a top-3 position across all five years, reflecting sustained interest in its filings.
