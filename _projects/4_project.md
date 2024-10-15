@@ -41,7 +41,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 ## IV. Key Findings
 
 ### 1. Median Requests by Weekday & Holidays
-<br><be>
+<br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -57,7 +57,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 
 ### 2. Total Downloads by Month (2020-2024)
-<br><br>
+<br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -74,7 +74,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 
 ### 3. Total Requests by Form Category
-<br><br>
+<br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -95,7 +95,7 @@ Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K
   
 
 ### 4. Top 10 Companies by EDGAR Downloads (2020-2024)
-<br><br>
+<br>
 
 <table>
   <thead>
@@ -191,7 +191,7 @@ Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K
     </tr>
   </tbody>
 </table>
-<br><br>
+<br>
 
 - **Tech Dominance**: Microsoft dominated from 2020 to 2022, but Oracle took the top spot in 2023 and 2024.
 - **IBM’s Consistency**: IBM maintained a top-3 position across all five years, reflecting sustained interest in its filings.
