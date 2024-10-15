@@ -41,7 +41,6 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 ### 1. Median Requests by Weekday & Holidays
 
-</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/byweekday.jpg" title="byweekday" class="img-fluid rounded z-depth-1" %}
@@ -57,7 +56,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 ### 2. Total Downloads by Month (2020-2024)
 
-</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bymonth.jpg" title="bymonth" class="img-fluid rounded z-depth-1" %}
@@ -74,7 +73,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 ### 3. Total Requests by Form Category
 
-</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bymonth.jpg" title="byform" class="img-fluid rounded z-depth-1" %}
