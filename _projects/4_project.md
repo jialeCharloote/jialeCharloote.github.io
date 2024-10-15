@@ -40,6 +40,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 ## IV. Key Findings
 
 ### 1. Median Requests by Weekday & Holidays
+<br><be>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -55,7 +56,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 
 ### 2. Total Downloads by Month (2020-2024)
-
+<br><br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -72,7 +73,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 
 ### 3. Total Requests by Form Category
-
+<br><br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -93,7 +94,7 @@ Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K
   
 
 ### 4. Top 10 Companies by EDGAR Downloads (2020-2024)
-
+<br><br>
 
 <table>
   <thead>
@@ -202,7 +203,7 @@ The analysis of EDGAR log data from 2020 to 2024 highlights evolving investor at
 
 Several events since 2020, including **COVID-19**, **Russia’s invasion of Ukraine**, **the Israel-Gaza conflict**, and the **rise of AI technologies** like ChatGPT, have shaped market behavior. For example, our content analysis shows that requests for filings related to Russia increased ahead of the invasion.
 
-### Potential Research Extensions：
+#### Potential Research Extensions：
 
 - **Market Reactions**: Analyze how certain filings (e.g., 8-K, Form 4) affect stock prices following high download volumes.
 - **Impact of Global Events**: Correlate download patterns with major events like COVID-19 or advancements in AI.
