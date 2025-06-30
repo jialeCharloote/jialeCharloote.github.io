@@ -2,9 +2,13 @@ github_users:
   - jialeCharloote
 
 
-repo_description_lines_max: 2
+repo_description_lines_max: 4
 
 github_repos:
-  - alshedivat/al-folio
   - jialeCharloote/Exploring-ESG-Sentiment-and-Financial-Performance
+  - jialeCharloote/finbot
+  - jialeCharloote/covid19-stock-forecast-replication
+  - jialeCharloote/Mining-Mine
+  
+  
 
