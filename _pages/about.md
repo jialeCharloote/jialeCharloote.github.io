@@ -16,8 +16,6 @@ profile:
 social: True # includes social icons at the bottom of the page
 ---
 
-## About Me  
-
 Hi, I’m Charlotte. I recently completed my Master’s in [Computational Social Science (Economics Concentration)](https://economics.uchicago.edu/masters-programs/macss-economics) at the [University of Chicago](https://www.uchicago.edu/). I also hold a B.B.A. in Applied Economics from [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), and I spent a semester abroad at [Copenhagen Business School](https://www.cbs.dk/en).  
 
 I currently work as an Associate in the Antitrust & Competition practice at [Charles River Associates (CRA)](https://www.crai.com/), where I use economic analysis and large-scale data to address complex legal and regulatory issues.  
