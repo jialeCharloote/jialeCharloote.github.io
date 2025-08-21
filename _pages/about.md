@@ -22,6 +22,6 @@ I currently work as an Associate in the [Antitrust & Competition](https://www.cr
 
 My academic and professional interests lie at the intersection of **data science, economics, and technology**. I am particularly interested in how information and artificial intelligence shape markets, organizations, and decision-making. Looking ahead, I aim to deepen my technical expertise through further study in **computer science/data science** and to pursue opportunities where I can bridge **economic insight with data-driven innovation**.  
 
-Outside of work, I enjoy traveling ✈️, cycling 🚴, playing badminton 🏸, and exploring music — I play both the pipa and the flute 🎶.  
+Outside of work, I enjoy traveling ✈️, cycling 🚴, playing badminton 🏸, and exploring music 🎶. 
 
 
