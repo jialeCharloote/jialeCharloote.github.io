@@ -1,97 +1,79 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+name: "Charlotte (Jiale) Zhou"
+title: "Associate, Antitrust & Competition — Charles River Associates"
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+contact:
+  email: "jialezhou66@gmail.com"
+  phone: "+1 (773) 690-0797"
+  location: "Chicago, IL"
+  website: "https://jialecharloote.github.io"
+  linkedin: "your-linkedin-handle"
+  github: "jialecharloote"
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+sections:
+  - title: Skills & Coursework
+    items:
+      - category: Skills
+        details: [Causal Inference (DiD, RD), Machine Learning, Spatial Analysis, NLP, LLMs, Data Collection (Web Scraping, APIs), Cloud Computing (AWS, GEE), Web Development, PySpark, GitHub]
+      - category: Software
+        details: [Python (Pandas, NumPy, SciPy), Stata, R, MATLAB, ArcGIS, GeoDa, Microsoft 365]
+      - category: Coursework
+        details: [Competition Policy, Large-Scale Computing, Causal Inference, Machine Learning for Economists, Quantitative Finance, Deep Learning & GAI, Market Design, Advanced Micro/Macroeconomics]
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+  - title: Education
+    items:
+      - degree: M.A., Computational Social Science (Economics), GPA 3.82/4.0
+        school: University of Chicago
+        dates: "2022 — 2025"
+      - degree: B.B.A., Applied Economics, GPA 3.7/4.0 (Top 10%)
+        school: The Chinese University of Hong Kong, Shenzhen
+        dates: "2018 — 2023"
+      - degree: Exchange Program, GPA 10/12
+        school: Copenhagen Business School
+        dates: "2021 — 2022"
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+  - title: Professional Experience
+    items:
+      - role: Associate, Antitrust & Competition Economics
+        company: Charles River Associates (CRA), Chicago
+        dates: "2024 — Present"
+        details:
+          - Economic analysis in antitrust/competition cases (mergers, monopolization, price-fixing)
+          - Cleaned & managed large datasets (transaction, financial, public records) using Python, Stata, R
+          - Built reproducible workflows for modeling & visualization supporting expert testimony
+          - Collaborated across offices under tight deadlines
+      - role: Research Assistant
+        company: Booth School of Business, University of Chicago
+        dates: "2023 — 2024"
+        details:
+          - Collected & cleaned gas flaring and asset transaction data for oil companies
+          - Conducted robustness analysis in Stata; drafted sections of appendix & methodology
+      - role: Consultant Intern
+        company: Regional Development Strategies, Shenzhen
+        dates: "2023"
+        details:
+          - Designed & analyzed surveys on universities’ talent flow & funding
+          - Researched higher education funding approval processes, wrote reports
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+  - title: Projects
+    items:
+      - name: Price-Fixing Cartels and Firm Innovation
+        dates: "2025"
+        details:
+          - Used Double ML with DiD to estimate R&D impacts of cartel participation
+          - Applied Random Forests & boosting methods on DOJ, USPTO, Compustat data
+      - name: Financial Sentiment Analysis Bot (FinBot)
+        dates: "2025"
+        link: "https://github.com/jialeCharloote/finbot"
+        details:
+          - Fine-tuned LLM (DeepSeek-R1 Distill Qwen) on 5,700+ financial articles
+          - Deployed API & web app with Flask; evaluated with F1, BLEU, BERTScore
+      - name: Mining Detection in Ghana
+        dates: "2024"
+        details:
+          - Applied ML on satellite imagery (Google Earth, Landsat) with AWS & PySpark
+          - Used RF and CNNs for predicting mining activity
+      - name: ESG Disclosure Sentiment & Performance
+        dates: "2024"
+        details:
+          - Scraped SEC filings, ran sentiment analysis with LM dictionary
+          - Studied relationship with firms’ financial performance
