@@ -20,7 +20,7 @@ Hi, I’m Charlotte. I recently completed my Master’s in [Computational Social
 
 I currently work as an Associate in the [Antitrust & Competition](https://www.crai.com/services/antitrust-and-competition/) practice at [Charles River Associates (CRA)](https://www.crai.com/), where I use economic analysis and large-scale data to address complex legal and regulatory issues.  
 
-My academic and professional interests lie at the intersection of **data science, economics, and technology**. I am particularly interested in how information and artificial intelligence shape markets, organizations, and decision-making. Looking ahead, I aim to deepen my technical expertise through further study in **computer science/data science** and to pursue opportunities where I can bridge **economic insight with data-driven innovation**.  
+My academic and professional interests lie at the intersection of **data science, economics, and technology**. I am particularly interested in how information and artificial intelligence shape markets, organizations, and decision-making. I am building toward roles in **AI/ML applications, MLE, or SDE/DS** where I can bridge economic insight with data-driven innovation.  
 
 Outside of work, I enjoy photographing 📷, traveling ✈️, cycling 🚴, playing badminton 🏸, and exploring music 🎶. 
 

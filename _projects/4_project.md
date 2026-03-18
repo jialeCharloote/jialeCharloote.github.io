@@ -78,11 +78,11 @@ Due to the dataset’s size—each daily log file contains millions of download 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bymonth.jpg" title="byform" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/byform.jpg" title="Total requests by form category" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-  Figure 3
+  Figure 3: Total requests by form category.
 </div>
 
 
@@ -97,7 +97,8 @@ Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K
 ### 4. Top 10 Companies by EDGAR Downloads (2020-2024)
 <br>
 
-<table>
+<div class="table-responsive">
+<table class="table">
   <thead>
     <tr>
       <th>Rank</th>
@@ -191,6 +192,7 @@ Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K
     </tr>
   </tbody>
 </table>
+</div>
 <br>
 
 - **Tech Dominance**: Microsoft dominated from 2020 to 2022, but Oracle took the top spot in 2023 and 2024.
