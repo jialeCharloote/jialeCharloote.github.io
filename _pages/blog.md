@@ -78,6 +78,10 @@ pagination:
   {% assign postlist = site.posts %}
 {% endif %}
 
+{% if postlist.size == 0 %}
+  <p>No blog posts yet. New posts coming soon.</p>
+{% endif %}
+
 {% for post in postlist %}
   {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
   {% if post.external_source != blank %}
