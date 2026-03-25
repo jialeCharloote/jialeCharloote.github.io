@@ -43,7 +43,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 ### 1. Median Requests by Weekday & Holidays
 <br>
 
-Figure omitted here (source image not included in this repo snapshot).
+{% include figure.liquid loading="eager" path="assets/img/byweekday.png" class="img-fluid rounded z-depth-1" %}
 
 - We observed a dramatic increase in search volume from 2020 to 2024, indicating growing reliance on EDGAR filings.
 - Activity drops on weekends and holidays, reflecting reduced investor engagement during non-trading days.
@@ -52,7 +52,7 @@ Figure omitted here (source image not included in this repo snapshot).
 ### 2. Total Downloads by Month (2020-2024)
 <br>
 
-Figure omitted here (source image not included in this repo snapshot).
+{% include figure.liquid loading="eager" path="assets/img/bymonth.png" class="img-fluid rounded z-depth-1" %}
 
 - **May 2024** recorded the highest download volume, surpassing 2 billion requests.
 - **Seasonality**: Downloads peak between April and June for most years, coinciding with Q1 and Q2 reporting seasons.
@@ -62,8 +62,7 @@ Figure omitted here (source image not included in this repo snapshot).
 ### 3. Total Requests by Form Category
 <br>
 
-Figure omitted here (source image not included in this repo snapshot).
-
+{% include figure.liquid loading="eager" path="assets/img/byform.png" class="img-fluid rounded z-depth-1" %}
 
 Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K, Form 10-Q, Form 8-K, Form 424, Form S, Form SC, Form 4, Form DEF, and Other.  
 
