@@ -1307,15 +1307,13 @@ ninja-keys::part(ninja-input-wrapper) {
 
 // Charlotte portfolio customizations
 .home-hero {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  background: var(--global-card-bg-color);
+  padding: 0 0 1.35rem;
+  margin-bottom: 1.35rem;
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
 .home-hero .eyebrow {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.65rem;
   color: var(--global-theme-color);
   font-size: 0.82rem;
   font-weight: 700;
@@ -1323,30 +1321,12 @@ ninja-keys::part(ninja-input-wrapper) {
   text-transform: uppercase;
 }
 
-.home-hero h2 {
-  margin-bottom: 0.75rem;
-  font-size: 1.65rem;
-  line-height: 1.2;
-}
-
-.home-hero p {
-  max-width: 46rem;
-}
-
-.pill-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 1rem 0 1.15rem;
-}
-
-.pill-row span {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 999px;
-  padding: 0.22rem 0.65rem;
+.home-lede {
+  max-width: 48rem;
+  margin-bottom: 1rem;
   color: var(--global-text-color);
-  background: var(--global-bg-color);
-  font-size: 0.85rem;
+  font-size: 1.08rem;
+  line-height: 1.65;
 }
 
 .homepage-actions {
@@ -1357,8 +1337,8 @@ ninja-keys::part(ninja-input-wrapper) {
 
 .homepage-actions a {
   border: 1px solid var(--global-theme-color);
-  border-radius: 8px;
-  padding: 0.45rem 0.8rem;
+  border-radius: 6px;
+  padding: 0.42rem 0.78rem;
   font-weight: 600;
   text-decoration: none;
 }
@@ -1368,27 +1348,35 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-bg-color);
 }
 
-.focus-grid {
+.focus-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.9rem;
-  margin: 1.25rem 0 1.8rem;
+  gap: 1rem;
+  margin: 1.35rem 0 1.9rem;
 }
 
-.focus-card {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 8px;
-  padding: 1rem;
-  background: var(--global-card-bg-color);
+.focus-list div {
+  min-width: 0;
+  padding-top: 0.75rem;
+  border-top: 2px solid var(--global-divider-color);
 }
 
-.focus-card h3 {
-  margin-top: 0;
+.focus-list span {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: var(--global-theme-color);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.focus-list h3 {
+  margin: 0 0 0.35rem;
   font-size: 1rem;
 }
 
-.focus-card p {
+.focus-list p {
   margin-bottom: 0;
+  color: var(--global-text-color-light);
   font-size: 0.94rem;
 }
 
@@ -1414,16 +1402,12 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 @media (max-width: 768px) {
-  .focus-grid {
+  .focus-list {
     grid-template-columns: 1fr;
   }
 
-  .home-hero {
-    padding: 1.15rem;
-  }
-
-  .home-hero h2 {
-    font-size: 1.35rem;
+  .home-lede {
+    font-size: 1rem;
   }
 }
 // End Charlotte portfolio customizations

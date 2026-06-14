@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Charlotte Zhou
-first_name: Charlotte
+title: Jiale Zhou 周嘉乐
+first_name: Jiale
 last_name: Zhou
 email: jialezhou66@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Charlotte Zhou — applied AI, economic analysis, source-backed research, and human-in-the-loop agent workflows.
+  Jiale Zhou (Charlotte) - applied AI, economic analysis, source-backed research, and human-in-the-loop agent workflows.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
