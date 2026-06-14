@@ -4,7 +4,7 @@ title: Mining Mines
 description: Accurate Mining Activities Administration
 img: /assets/img/mine_5.9487789185563_-1.916576954470561.jpg
 redirect: https://mining-mine.github.io/
-importance: 1
+importance: 11
 category: work
 related_publications: false
 ---

@@ -2,11 +2,21 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Feel free to reach out if you have any interest or suggestions regarding the following projects :)
+description: Applied AI systems, public-data research, and economic analysis projects.
 nav: true
 nav_order: 3
-horizontal: false
+horizontal: true
+display_categories:
+  - applied-ai
+  - work
 ---
+
+<div class="project-page-intro">
+  <p>
+    Selected projects across applied AI, economic analysis, public-data research, and practical
+    workflow automation. New AI portfolio pages are written from public, personal, or synthetic examples.
+  </p>
+</div>
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -38,14 +48,9 @@ horizontal: false
 
 {% else %}
 
-<!-- Display projects without categories -->
-
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
-  <!-- Generate cards for each project -->
-
 {% if page.horizontal %}
-
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}
