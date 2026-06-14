@@ -1,79 +1,95 @@
-name: "Charlotte (Jiale) Zhou"
-title: "Associate, Antitrust & Competition — Charles River Associates"
+- title: Profile
+  type: map
+  contents:
+    - name: Name
+      value: Jiale Zhou (Charlotte)
+    - name: Location
+      value: Chicago, IL
+    - name: Email
+      value: jialezhou66@gmail.com
+    - name: Links
+      links:
+        - name: GitHub
+          link: https://github.com/jialeCharloote
+        - name: LinkedIn
+          link: https://www.linkedin.com/in/jiale-charlotte-zhou
 
-contact:
-  email: "jialezhou66@gmail.com"
-  phone: "+1 (773) 690-0797"
-  location: "Chicago, IL"
-  website: "https://jialeCharloote.github.io"
-  linkedin: "jiale-charlotte-zhou"
-  github: "jialeCharloote"
+- title: Education
+  type: time_table
+  contents:
+    - title: M.A., Computational Social Science (Economics)
+      institution: University of Chicago
+      year: 2022 - 2025
+      description:
+        - GPA 3.82/4.0
+    - title: B.B.A., Applied Economics
+      institution: The Chinese University of Hong Kong, Shenzhen
+      year: 2018 - 2023
+      description:
+        - GPA 3.7/4.0, Top 10%
+    - title: Exchange Program
+      institution: Copenhagen Business School
+      year: 2021 - 2022
 
-sections:
-  - title: Skills & Coursework
-    items:
-      - category: Skills
-        details: [Causal Inference (DiD, RD), Machine Learning, Spatial Analysis, NLP, LLMs, Data Collection (Web Scraping, APIs), Cloud Computing (AWS, GEE), Web Development, PySpark, GitHub]
-      - category: Software
-        details: [Python (Pandas, NumPy, SciPy), Stata, R, MATLAB, ArcGIS, GeoDa, Microsoft 365]
-      - category: Coursework
-        details: [Competition Policy, Large-Scale Computing, Causal Inference, Machine Learning for Economists, Quantitative Finance, Deep Learning & GAI, Market Design, Advanced Micro/Macroeconomics]
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Data and Modeling
+      items:
+        - Python, Stata, R, MATLAB, Pandas, NumPy, SciPy
+        - Causal inference, machine learning, NLP, spatial analysis, data collection
+    - title: Applied AI
+      items:
+        - LLM workflows, research agents, evaluation loops, source-backed drafting
+        - Web apps, APIs, GitHub, cloud and large-scale data workflows
+    - title: Economics
+      items:
+        - Competition policy, market design, quantitative finance, microeconomics, macroeconomics
 
-  - title: Education
-    items:
-      - degree: M.A., Computational Social Science (Economics), GPA 3.82/4.0
-        school: University of Chicago
-        dates: "2022 — 2025"
-      - degree: B.B.A., Applied Economics, GPA 3.7/4.0 (Top 10%)
-        school: The Chinese University of Hong Kong, Shenzhen
-        dates: "2018 — 2023"
-      - degree: Exchange Program, GPA 10/12
-        school: Copenhagen Business School
-        dates: "2021 — 2022"
+- title: Selected Experience
+  type: time_table
+  contents:
+    - title: Economic Consulting Associate
+      institution: Economic consulting, Chicago
+      year: 2024 - Present
+      description:
+        - Applied economic analysis, data cleaning, modeling, and visualization in research-heavy settings
+        - Built reproducible Python, Stata, and R workflows for large datasets
+        - Translated quantitative findings into structured, reviewable analysis notes
+    - title: Research Assistant
+      institution: Booth School of Business, University of Chicago
+      year: 2023 - 2024
+      description:
+        - Collected and cleaned gas flaring and asset transaction data for oil companies
+        - Conducted robustness analysis in Stata and drafted methodology notes
+    - title: Consultant Intern
+      institution: Regional Development Strategies, Shenzhen
+      year: 2023
+      description:
+        - Designed and analyzed surveys on university talent flow and funding
+        - Researched higher education funding approval processes and wrote reports
 
-  - title: Professional Experience
-    items:
-      - role: Associate, Antitrust & Competition Economics
-        company: Charles River Associates (CRA), Chicago
-        dates: "2024 — Present"
-        details:
-          - Economic analysis in antitrust/competition cases (mergers, monopolization, price-fixing)
-          - Cleaned & managed large datasets (transaction, financial, public records) using Python, Stata, R
-          - Built reproducible workflows for modeling & visualization supporting expert testimony
-          - Collaborated across offices under tight deadlines
-      - role: Research Assistant
-        company: Booth School of Business, University of Chicago
-        dates: "2023 — 2024"
-        details:
-          - Collected & cleaned gas flaring and asset transaction data for oil companies
-          - Conducted robustness analysis in Stata; drafted sections of appendix & methodology
-      - role: Consultant Intern
-        company: Regional Development Strategies, Shenzhen
-        dates: "2023"
-        details:
-          - Designed & analyzed surveys on universities’ talent flow & funding
-          - Researched higher education funding approval processes, wrote reports
-
-  - title: Projects
-    items:
-      - name: Price-Fixing Cartels and Firm Innovation
-        dates: "2025"
-        details:
-          - Used Double ML with DiD to estimate R&D impacts of cartel participation
-          - Applied Random Forests & boosting methods on DOJ, USPTO, Compustat data
-      - name: Financial Sentiment Analysis Bot (FinBot)
-        dates: "2025"
-        link: "https://github.com/jialeCharloote/finbot"
-        details:
-          - Fine-tuned LLM (DeepSeek-R1 Distill Qwen) on 5,700+ financial articles
-          - Deployed API & web app with Flask; evaluated with F1, BLEU, BERTScore
-      - name: Mining Detection in Ghana
-        dates: "2024"
-        details:
-          - Applied ML on satellite imagery (Google Earth, Landsat) with AWS & PySpark
-          - Used RF and CNNs for predicting mining activity
-      - name: ESG Disclosure Sentiment & Performance
-        dates: "2024"
-        details:
-          - Scraped SEC filings, ran sentiment analysis with LM dictionary
-          - Studied relationship with firms’ financial performance
+- title: Selected Projects
+  type: time_table
+  contents:
+    - title: Financial Sentiment Analysis Bot (FinBot)
+      year: 2025
+      description:
+        - Fine-tuned an LLM on financial articles and deployed an API/web app with Flask
+        - Evaluated outputs with F1, BLEU, and BERTScore
+      linkitems:
+        - linkname: GitHub
+          link: https://github.com/jialeCharloote/finbot
+    - title: Price-Fixing Cartels and Firm Innovation
+      year: 2025
+      description:
+        - Used Double ML with DiD to estimate R&D impacts of cartel participation
+        - Applied tree-based methods on DOJ, USPTO, and Compustat data
+    - title: Mining Detection in Ghana
+      year: 2024
+      description:
+        - Applied ML on satellite imagery with Google Earth, Landsat, AWS, and PySpark
+    - title: ESG Disclosure Sentiment and Performance
+      year: 2024
+      description:
+        - Scraped SEC filings, ran sentiment analysis, and studied links to financial performance

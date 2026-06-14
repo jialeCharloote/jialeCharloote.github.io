@@ -1307,8 +1307,8 @@ ninja-keys::part(ninja-input-wrapper) {
 
 // Charlotte portfolio customizations
 .home-hero {
-  padding: 0 0 1.35rem;
-  margin-bottom: 1.35rem;
+  padding: 0.35rem 0 1.4rem;
+  margin-bottom: 1.25rem;
   border-bottom: 1px solid var(--global-divider-color);
 }
 
@@ -1322,11 +1322,11 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .home-lede {
-  max-width: 48rem;
-  margin-bottom: 1rem;
+  max-width: 50rem;
+  margin-bottom: 1.05rem;
   color: var(--global-text-color);
-  font-size: 1.08rem;
-  line-height: 1.65;
+  font-size: 1.07rem;
+  line-height: 1.68;
 }
 
 .homepage-actions {
@@ -1348,36 +1348,34 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-bg-color);
 }
 
-.focus-list {
+.identity-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-  margin: 1.35rem 0 1.9rem;
+  gap: 1.15rem;
+  margin: 1.35rem 0 2rem;
 }
 
-.focus-list div {
+.identity-grid div {
   min-width: 0;
-  padding-top: 0.75rem;
+  padding-top: 0.85rem;
   border-top: 2px solid var(--global-divider-color);
 }
 
-.focus-list span {
+.identity-grid span {
   display: block;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.5rem;
   color: var(--global-theme-color);
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
 }
 
-.focus-list h3 {
-  margin: 0 0 0.35rem;
-  font-size: 1rem;
-}
-
-.focus-list p {
+.identity-grid p {
   margin-bottom: 0;
   color: var(--global-text-color-light);
   font-size: 0.94rem;
+  line-height: 1.55;
 }
 
 .portfolio-note,
@@ -1402,7 +1400,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 @media (max-width: 768px) {
-  .focus-list {
+  .identity-grid {
     grid-template-columns: 1fr;
   }
 
