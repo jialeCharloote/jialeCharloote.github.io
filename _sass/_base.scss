@@ -2,6 +2,7 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&display=swap");
 // Typography
 
 p,
@@ -1306,6 +1307,51 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 // Charlotte portfolio customizations
+:root {
+  --charlotte-font-sans: "Inter", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Heiti SC", sans-serif;
+  --charlotte-font-serif: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+}
+
+body,
+p,
+li,
+td,
+th,
+input,
+button,
+textarea,
+.navbar,
+.post,
+.cv {
+  font-family: var(--charlotte-font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+.card-title {
+  font-family: var(--charlotte-font-sans);
+  font-weight: 650;
+}
+
+.post-title,
+.navbar-brand.title,
+.home-hero .eyebrow {
+  font-family: var(--charlotte-font-serif);
+}
+
+.post-title {
+  font-weight: 600;
+  line-height: 1.28;
+}
+
+.profile .more-info {
+  font-family: var(--charlotte-font-sans);
+}
+
 .home-hero {
   padding: 0.35rem 0 1.4rem;
   margin-bottom: 1.25rem;
@@ -1315,10 +1361,10 @@ ninja-keys::part(ninja-input-wrapper) {
 .home-hero .eyebrow {
   margin-bottom: 0.65rem;
   color: var(--global-theme-color);
-  font-size: 0.82rem;
-  font-weight: 700;
+  font-size: 0.88rem;
+  font-weight: 600;
   letter-spacing: 0;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .home-lede {
