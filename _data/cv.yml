@@ -5,6 +5,8 @@
       value: Jiale Zhou (Charlotte)
     - name: Location
       value: Chicago, IL
+    - name: Focus
+      value: Applied AI, data science, economic analysis, and human-in-the-loop research systems
     - name: Email
       value: jialezhou66@gmail.com
     - name: Links
@@ -14,6 +16,29 @@
         - name: LinkedIn
           link: https://www.linkedin.com/in/jiale-charlotte-zhou
 
+- title: AI / Data Science Focus
+  type: list
+  contents:
+    - Applied AI builder with economics training, focused on LLM workflows, source-backed research agents, and decision-support tools.
+    - Strong Python data stack across pandas, NumPy, SciPy, web scraping, REST APIs, Stata/R, causal inference, and large-scale data workflows.
+    - Interested in AI product, data science, applied ML, and AI solutions roles where rigorous analysis meets practical software.
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: AI and Machine Learning
+      items:
+        - LLM workflows, PEFT/LoRA fine-tuning, sentiment classification, NLP, model evaluation
+        - Random Forests, boosting methods, convolutional neural networks, Double ML, DiD, RD
+    - title: Data and Engineering
+      items:
+        - Python, pandas, NumPy, SciPy, Flask, REST APIs, web scraping, GitHub
+        - AWS, Google Earth Engine, PySpark, large-scale data processing, visualization
+    - title: Economics and Analytics
+      items:
+        - Causal inference, competition economics, market design, quantitative finance, microeconomics, macroeconomics
+        - Stata, R, MATLAB, ArcGIS, GeoDa, Excel, PowerPoint
+
 - title: Education
   type: time_table
   contents:
@@ -22,6 +47,7 @@
       year: 2022 - 2025
       description:
         - GPA 3.82/4.0
+        - Relevant coursework in machine learning for economists, large-scale computing, causal inference, quantitative finance, deep learning and generative AI, market design, and competition policy
     - title: B.B.A., Applied Economics
       institution: The Chinese University of Hong Kong, Shenzhen
       year: 2018 - 2023
@@ -30,21 +56,8 @@
     - title: Exchange Program
       institution: Copenhagen Business School
       year: 2021 - 2022
-
-- title: Skills
-  type: nested_list
-  contents:
-    - title: Data and Modeling
-      items:
-        - Python, Stata, R, MATLAB, Pandas, NumPy, SciPy
-        - Causal inference, machine learning, NLP, spatial analysis, data collection
-    - title: Applied AI
-      items:
-        - LLM workflows, research agents, evaluation loops, source-backed drafting
-        - Web apps, APIs, GitHub, cloud and large-scale data workflows
-    - title: Economics
-      items:
-        - Competition policy, market design, quantitative finance, microeconomics, macroeconomics
+      description:
+        - GPA 10/12
 
 - title: Selected Experience
   type: time_table
@@ -53,43 +66,50 @@
       institution: Economic consulting, Chicago
       year: 2024 - Present
       description:
-        - Applied economic analysis, data cleaning, modeling, and visualization in research-heavy settings
-        - Built reproducible Python, Stata, and R workflows for large datasets
-        - Translated quantitative findings into structured, reviewable analysis notes
+        - Conduct quantitative economic analysis, data cleaning, modeling, and visualization in high-stakes research settings
+        - Build reproducible Python, Stata, and R workflows for large, multi-source datasets
+        - Translate analytical findings into structured, reviewable deliverables for technical and nontechnical stakeholders
     - title: Research Assistant
       institution: Booth School of Business, University of Chicago
       year: 2023 - 2024
       description:
-        - Collected and cleaned gas flaring and asset transaction data for oil companies
-        - Conducted robustness analysis in Stata and drafted methodology notes
+        - Collected, verified, and cleaned gas flaring and asset transaction data for oil companies operating in Africa
+        - Conducted robustness analysis in Stata and drafted methodology and supplementary analysis notes
     - title: Consultant Intern
       institution: Regional Development Strategies, Shenzhen
       year: 2023
       description:
-        - Designed and analyzed surveys on university talent flow and funding
-        - Researched higher education funding approval processes and wrote reports
+        - Designed and analyzed surveys on university discipline setting, talent flow, and funding use
+        - Researched higher education funding approval processes and produced comparative analysis reports
 
-- title: Selected Projects
+- title: Selected AI / Data Science Projects
   type: time_table
   contents:
     - title: Financial Sentiment Analysis Bot (FinBot)
       year: 2025
       description:
-        - Fine-tuned an LLM on financial articles and deployed an API/web app with Flask
-        - Evaluated outputs with F1, BLEU, and BERTScore
+        - Fine-tuned DeepSeek-R1-Distill-Qwen-1.5B with PEFT/LoRA on 5,700+ financial news articles for sentiment classification and reasoning
+        - Built a labeled dataset from Polygon and Kaggle, evaluated with F1, BLEU, and BERTScore, and deployed a Flask QA API and web app
       linkitems:
         - linkname: GitHub
           link: https://github.com/jialeCharloote/finbot
+    - title: Charlotte Orbit
+      year: 2026
+      description:
+        - Built a local-first AI assistant control plane for messages, market research, wellness, career planning, and approval-gated operations
+        - Implemented agent routing, SQLite-backed task tracking, source-backed memo generation, Slack/Discord signal scoring, and human approval gates
     - title: Price-Fixing Cartels and Firm Innovation
       year: 2025
       description:
-        - Used Double ML with DiD to estimate R&D impacts of cartel participation
-        - Applied tree-based methods on DOJ, USPTO, and Compustat data
+        - Applied Double Machine Learning with Difference-in-Differences to estimate the causal impact of cartel participation on firm R&D
+        - Used Random Forests and boosting methods to control for high-dimensional firm heterogeneity and selection bias using DOJ, USPTO, and Compustat data
     - title: Mining Detection in Ghana
       year: 2024
       description:
-        - Applied ML on satellite imagery with Google Earth, Landsat, AWS, and PySpark
-    - title: ESG Disclosure Sentiment and Performance
+        - Processed large-scale Google Earth and Landsat data with AWS and PySpark for feature engineering, visualization, and prediction
+        - Applied Random Forests and CNNs to geospatial features and satellite imagery for mining activity detection
+    - title: ESG Disclosure Sentiment and Financial Performance
       year: 2024
       description:
-        - Scraped SEC filings, ran sentiment analysis, and studied links to financial performance
+        - Scraped SEC filings and applied an LM dictionary to analyze ESG disclosure sentiment across public companies
+        - Studied the relationship between ESG sentiment and firm financial performance using Python-based text analysis workflows
