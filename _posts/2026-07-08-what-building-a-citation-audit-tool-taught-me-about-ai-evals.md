@@ -22,18 +22,18 @@ That decomposition changed everything: the lever wasn't a smarter matcher, it wa
 
 ## 2. Retrieval fails socially, not randomly
 
-My favorite bug: one very long deposition transcript kept "absorbing" footnotes that had nothing to do with it, simply because it was long and lexically rich — a magnet document. BM25 loved it. The fix wasn't better ranking; it was recognizing that many citations *name their source* ("Smith Deposition at 36"), so the system should resolve named sources first and only fall back to search when nothing pins. And when a match couldn't be corroborated by a name the footnote actually cites, the right behavior was to *decline to answer* and flag for human review rather than emit a plausible-looking wrong answer.
+My favorite bug: one very long deposition transcript kept "absorbing" footnotes that had nothing to do with it, simply because it was long and lexically rich — a magnet document. BM25 loved it. The fix wasn't better ranking; it was recognizing that many citations _name their source_ ("Smith Deposition at 36"), so the system should resolve named sources first and only fall back to search when nothing pins. And when a match couldn't be corroborated by a name the footnote actually cites, the right behavior was to _decline to answer_ and flag for human review rather than emit a plausible-looking wrong answer.
 
 If that sounds familiar, it's because it's the hallucination problem in miniature. The design lesson carried over directly to how I think about LLM products: the quality bar isn't "always produce something," it's "know when you shouldn't."
 
 ## 3. Define "good" before you automate, or you'll automate "plausible"
 
-The checks that caught real errors were never clever. They were painfully specific: *this style guide forbids "Ibid."*, *a percentage in the sentence must match the percentage in the footnote within tolerance*, *a quotation must appear verbatim in at least one source document*. Writing them forced me to turn a vague professional instinct — "this footnote looks off" — into rules precise enough for a machine to apply and a reviewer to trust.
+The checks that caught real errors were never clever. They were painfully specific: _this style guide forbids "Ibid."_, _a percentage in the sentence must match the percentage in the footnote within tolerance_, _a quotation must appear verbatim in at least one source document_. Writing them forced me to turn a vague professional instinct — "this footnote looks off" — into rules precise enough for a machine to apply and a reviewer to trust.
 
-That translation step, I've come to think, *is* the job in AI quality work. Models are increasingly capable; the scarce skill is specifying what "good" means in a domain, building the measurement loop, and keeping humans in the loop where the cost of a confident error is high.
+That translation step, I've come to think, _is_ the job in AI quality work. Models are increasingly capable; the scarce skill is specifying what "good" means in a domain, building the measurement loop, and keeping humans in the loop where the cost of a confident error is high.
 
 ---
 
 I came to this from economics, where we're trained to distrust our own numbers — every regression comes with the question "what would have to be true for this to be wrong?" Building this tool convinced me the same instinct is exactly what LLM systems need, and it's what I want to spend the next years working on: evaluation, model behavior, and the unglamorous machinery that makes AI outputs trustworthy.
 
-*(All examples above are described at the workflow level; the tool and data are internal. The public-safe blueprint of the same ideas lives in my [Expert Report QA Assistant](/projects/expert-report-qa-assistant/) project.)*
+_(All examples above are described at the workflow level; the tool and data are internal. The public-safe blueprint of the same ideas lives in my [Expert Report QA Assistant](/projects/expert-report-qa-assistant/) project.)_

@@ -79,7 +79,7 @@ flickr_id: # your flickr id
 github_username: jialeCharloote # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
-instagram_id:  # your instagram id
+instagram_id: # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
@@ -130,7 +130,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Blog # blog_name will be displayed in your blog page
 blog_description: Notes on applied AI, data science, and economic analysis.
-permalink: 
+permalink:
 lsi: false # produce an index for related posts
 
 # Pagination
