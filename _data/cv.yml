@@ -3,8 +3,6 @@
   contents:
     - name: Name
       value: Jiale Zhou (Charlotte)
-    - name: Location
-      value: Chicago, IL
     - name: Focus
       value: Applied AI, data science, economic analysis, and human-in-the-loop research systems
     - name: Email
@@ -21,14 +19,14 @@
   contents:
     - Applied AI builder with economics training, focused on LLM workflows, source-backed research agents, and decision-support tools.
     - Strong Python data stack across pandas, NumPy, SciPy, web scraping, REST APIs, Stata/R, causal inference, and large-scale data workflows.
-    - Interested in AI product, data science, applied ML, and AI solutions roles where rigorous analysis meets practical software.
+    - Interested in AI product, model behavior & evals, data science, and applied AI roles in the San Francisco Bay Area.
 
 - title: Technical Skills
   type: nested_list
   contents:
     - title: AI and Machine Learning
       items:
-        - LLM workflows, PEFT/LoRA fine-tuning, sentiment classification, NLP, model evaluation
+        - LLM evaluation & evals design, context engineering, LLM workflows, PEFT/LoRA fine-tuning, RAG, NLP
         - Random Forests, boosting methods, convolutional neural networks, Double ML, DiD, RD
     - title: Data and Engineering
       items:
@@ -42,6 +40,11 @@
 - title: Education
   type: time_table
   contents:
+    - title: M.S., Computer Science (OMSCS)
+      institution: Georgia Institute of Technology
+      year: 2026 - Present
+      description:
+        - "Coursework: Database Systems Concepts & Design"
     - title: M.A., Computational Social Science (Economics)
       institution: University of Chicago
       year: 2022 - 2025
@@ -63,12 +66,13 @@
   type: time_table
   contents:
     - title: Economic Consulting Associate
-      institution: Economic consulting, Chicago
-      year: 2024 - Present
+      institution: Economic consulting
+      year: 2025 - Present
       description:
-        - Conduct quantitative economic analysis, data cleaning, modeling, and visualization in high-stakes research settings
-        - Build reproducible Python, Stata, and R workflows for large, multi-source datasets
-        - Translate analytical findings into structured, reviewable deliverables for technical and nontechnical stakeholders
+        - Conduct quantitative economic analysis in high-stakes antitrust matters, where every figure faces expert scrutiny
+        - Engineer ETL and validation pipelines on Databricks (PySpark, Delta Tables, Azure) for hundreds of GB of case data
+        - Built an internal footnote automation and audit tool (Python CLI + Streamlit) with FTS5/BM25 evidence retrieval, 25+ deterministic checks, and an eval harness scoring auto-generated drafts against ground truth
+        - Member of the internal AI platform team (LLM document review) — bug testing, user feedback, documentation and user Q&A, and design input on agent behavior and retrieval
     - title: Research Assistant
       institution: Booth School of Business, University of Chicago
       year: 2023 - 2024
@@ -85,6 +89,11 @@
 - title: Selected AI / Data Science Projects
   type: time_table
   contents:
+    - title: Charlotte Orbit
+      year: 2026
+      description:
+        - Built a local-first AI assistant control plane for messages, market research, wellness, career planning, and approval-gated operations
+        - Implemented agent routing, SQLite-backed task tracking, source-backed memo generation, Slack/Discord signal scoring, and human approval gates
     - title: Financial Sentiment Analysis Bot (FinBot)
       year: 2025
       description:
@@ -93,11 +102,6 @@
       linkitems:
         - linkname: GitHub
           link: https://github.com/jialeCharloote/finbot
-    - title: Charlotte Orbit
-      year: 2026
-      description:
-        - Built a local-first AI assistant control plane for messages, market research, wellness, career planning, and approval-gated operations
-        - Implemented agent routing, SQLite-backed task tracking, source-backed memo generation, Slack/Discord signal scoring, and human approval gates
     - title: Price-Fixing Cartels and Firm Innovation
       year: 2025
       description:
