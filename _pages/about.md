@@ -25,8 +25,8 @@ social: True
     planning more source-backed, structured, and human-guided.
   </p>
   <div class="homepage-actions">
-    <a href="{{ '/projects/' | relative_url }}">Selected projects</a>
-    <a href="{{ '/cv/' | relative_url }}">CV</a>
+    <a href="/projects/">Selected projects</a>
+    <a href="/cv/">CV</a>
     <a href="mailto:jialezhou66@gmail.com">Contact</a>
   </div>
 </section>
