@@ -1,7 +1,7 @@
 ---
 layout: page
-title: EDGAR 
-date: 2024-10-15 
+title: EDGAR
+date: 2024-10-15
 description: Analysis of EDGAR log data from 2020 to 2024:Key Insights and Trends
 img: assets/img/edgar.webp
 importance: 14
@@ -21,6 +21,7 @@ In this blog, we aim to provide a short descriptive analysis of the new EDGAR da
 ---
 
 ## II. Prior Literature
+
 The EDGAR log dataset has been widely used to study investor attention, access patterns, and the economic consequences of information disclosure. For example, Drake et al. (2015) examined the downloading patterns of EDGAR filings and their relationship with firms' earnings announcements from 2008 to 2011.
 
 Earlier versions of the EDGAR dataset (pre-2017) contained IP addresses, enabling researchers to distinguish between human users and automated bots, with many studies excluding bot searches (Loughran and McDonald, 2017; Ryans, 2017; Drake et al., 2015). However, Drake et al. (2020) included bots to examine institutional investor behavior, as automated data retrieval often reflects institutional activity.
@@ -31,7 +32,6 @@ The new dataset from 2020 no longer provides IP addresses. While this shift limi
 
 ## III. Data Processing
 
-
 We downloaded and processed the EDGAR log data to obtain download dates and accession IDs. We counted the number of downloads per day per accession ID per CIK (Central Index Key). Using the SEC’s index, we supplemented this with information such as form type, filing date, and company name.
 
 Due to the dataset’s size—each daily log file contains millions of download records—we used the **UChicago Midway3 cloud computing platform** to process the files. Our code for processing and analysis is available [here](https://github.com).
@@ -41,6 +41,7 @@ Due to the dataset’s size—each daily log file contains millions of download 
 ## IV. Key Findings
 
 ### 1. Median Requests by Weekday & Holidays
+
 <br>
 
 {% include figure.liquid loading="eager" path="assets/img/byweekday.png" class="img-fluid rounded z-depth-1" %}
@@ -48,8 +49,8 @@ Due to the dataset’s size—each daily log file contains millions of download 
 - We observed a dramatic increase in search volume from 2020 to 2024, indicating growing reliance on EDGAR filings.
 - Activity drops on weekends and holidays, reflecting reduced investor engagement during non-trading days.
 
-
 ### 2. Total Downloads by Month (2020-2024)
+
 <br>
 
 {% include figure.liquid loading="eager" path="assets/img/bymonth.png" class="img-fluid rounded z-depth-1" %}
@@ -58,21 +59,21 @@ Due to the dataset’s size—each daily log file contains millions of download 
 - **Seasonality**: Downloads peak between April and June for most years, coinciding with Q1 and Q2 reporting seasons.
 - **Trend**: Download volumes have steadily increased, showing rising investor interest in financial disclosures.
 
-
 ### 3. Total Requests by Form Category
+
 <br>
 
 {% include figure.liquid loading="eager" path="assets/img/byform.png" class="img-fluid rounded z-depth-1" %}
 
-Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K, Form 10-Q, Form 8-K, Form 424, Form S, Form SC, Form 4, Form DEF, and Other.  
+Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K, Form 10-Q, Form 8-K, Form 424, Form S, Form SC, Form 4, Form DEF, and Other.
 
-- **Form 4 (Insider Trading Reports)**: This form consistently receives the most requests, reflecting strong interest in tracking insider trading.  
-- **10-K and 10-Q**: These key financial reports show steady growth in demand.  
-- **Form 8-K**: Requests spiked in 2023, suggesting heightened attention to event-driven disclosures like earnings announcements and mergers.  
+- **Form 4 (Insider Trading Reports)**: This form consistently receives the most requests, reflecting strong interest in tracking insider trading.
+- **10-K and 10-Q**: These key financial reports show steady growth in demand.
+- **Form 8-K**: Requests spiked in 2023, suggesting heightened attention to event-driven disclosures like earnings announcements and mergers.
 - **DEF and SC Filings**: Though less common, these filings show moderate growth, indicating increased relevance for niche investor segments.
-  
 
 ### 4. Top 10 Companies by EDGAR Downloads (2020-2024)
+
 <br>
 
 <div class="table-responsive">
@@ -180,6 +181,7 @@ Following Drake et al. (2015), we grouped the forms into 9 categories: Form 10-K
 ---
 
 ## V. Discussion & Further Research
+
 The analysis of EDGAR log data from 2020 to 2024 highlights evolving investor attention trends, with technology companies at the forefront. The sharp rise in requests during 2023 suggests that external factors, such as geopolitical events and market volatility, influence these trends.
 
 Several events since 2020, including **COVID-19**, **Russia’s invasion of Ukraine**, **the Israel-Gaza conflict**, and the **rise of AI technologies** like ChatGPT, have shaped market behavior. For example, our content analysis shows that requests for filings related to Russia increased ahead of the invasion.
@@ -195,17 +197,16 @@ By continuing to analyze this dataset, researchers can gain valuable insights in
 
 ---
 
-## VI. References  
-- **Drake, M. S., Roulstone, D. T., & Thornock, J. R.** (2015). *The determinants and consequences of information acquisition via EDGAR.* Contemporary Accounting Research, 32(3), 1128-1161. [https://doi.org/10.1111/1911-3846.12094](https://doi.org/10.1111/1911-3846.12094)  
+## VI. References
 
-- **Drake, M. S., Roulstone, D. T., & Thornock, J. R.** (2020). *EDGAR search and download activity: Institutional investors' behavior and its impact on stock prices.* Journal of Financial Economics, 135(2), 537-558. [https://doi.org/10.1016/j.jfineco.2019.07.009](https://doi.org/10.1016/j.jfineco.2019.07.009)  
+- **Drake, M. S., Roulstone, D. T., & Thornock, J. R.** (2015). _The determinants and consequences of information acquisition via EDGAR._ Contemporary Accounting Research, 32(3), 1128-1161. [https://doi.org/10.1111/1911-3846.12094](https://doi.org/10.1111/1911-3846.12094)
 
-- **Loughran, T., & McDonald, B.** (2017). *The use of word lists in textual analysis.* Journal of Behavioral Finance, 18(3), 233-246. [https://doi.org/10.1080/15427560.2017.1340970](https://doi.org/10.1080/15427560.2017.1340970)  
+- **Drake, M. S., Roulstone, D. T., & Thornock, J. R.** (2020). _EDGAR search and download activity: Institutional investors' behavior and its impact on stock prices._ Journal of Financial Economics, 135(2), 537-558. [https://doi.org/10.1016/j.jfineco.2019.07.009](https://doi.org/10.1016/j.jfineco.2019.07.009)
 
-- **Ryans, J. K.** (2017). *EDGAR and the effect of automated data retrieval on financial markets.* Journal of Accounting Research, 55(2), 471-502. [https://doi.org/10.1111/1475-679X.12132](https://doi.org/10.1111/1475-679X.12132)  
+- **Loughran, T., & McDonald, B.** (2017). _The use of word lists in textual analysis._ Journal of Behavioral Finance, 18(3), 233-246. [https://doi.org/10.1080/15427560.2017.1340970](https://doi.org/10.1080/15427560.2017.1340970)
+
+- **Ryans, J. K.** (2017). _EDGAR and the effect of automated data retrieval on financial markets._ Journal of Accounting Research, 55(2), 471-502. [https://doi.org/10.1111/1475-679X.12132](https://doi.org/10.1111/1475-679X.12132)
 
 ---
 
 **Notes**: We do not have access to the log files for 2020-09-26 and 2024-04-24, as these files are missing from the SEC EDGAR website. However, we believe that the absence of these two files will not significantly bias our analysis
-
-
