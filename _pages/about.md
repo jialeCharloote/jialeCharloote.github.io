@@ -18,12 +18,12 @@ social: True
 <section class="home-hero">
   <p class="eyebrow">Jiale Zhou 周嘉乐 / Charlotte</p>
   <p class="home-lede">
-    Hi, I am Jiale Zhou &mdash; Charlotte. I build production LLM agent systems end to end,
-    from React front-ends to the agent runtime itself, and design the evals that keep their
-    outputs trustworthy. Trained as an economist, I&rsquo;m drawn to the unglamorous machinery
-    of AI quality: source-backed research agents, human-in-the-loop workflows, and decision
-    tools that never hide the evidence. Currently in Chicago, relocating to the San Francisco
-    Bay Area (fall 2026).
+    Hi, I am Jiale Zhou, and I also go by Charlotte. I am an economist who builds and
+    evaluates AI systems for high-stakes work, where a confident wrong answer is expensive.
+    I build the research agents and LLM tools, and I write the evals that decide whether they
+    are good enough to trust. My background is economics and causal inference, so I came to AI
+    already trained to distrust my own numbers. I am in Chicago now, moving to the SF Bay Area
+    this fall.
   </p>
   <div class="homepage-actions">
     <a href="/projects/">Selected projects</a>
@@ -44,17 +44,18 @@ social: True
   <div>
     <span>Direction</span>
     <p>
-      I am building toward applied AI, data science, and AI product roles where economic
-      reasoning, rigorous research, and product-minded engineering meet.
+      I am looking for data science, AI engineering, and applied-AI roles, including legal
+      and other high-stakes domains where economic reasoning and careful evaluation actually
+      change the answer.
     </p>
   </div>
   <div>
     <span>At Work</span>
     <p>
-      Economic consulting associate at Charles River Associates and a full-stack contributor
-      on the internal AI platform team &mdash; I ship production code on an LLM agent runtime
-      (in-app docs with AI Q&amp;A, model rollouts, agent-tooling reliability) and build the
-      evaluation tooling that scores AI-generated drafts against ground truth.
+      I am an economic consulting associate at Charles River Associates, and I also work on
+      the internal AI platform team. I ship production code on our LLM agent runtime (in-app
+      docs with AI Q&amp;A, model rollouts, agent-tooling reliability), and I build the eval
+      tooling that scores AI-generated drafts against a ground-truth key.
     </p>
   </div>
   <div>

@@ -9,11 +9,11 @@ importance: 13
 category: work
 ---
 
-A text-analysis study of corporate **greenwashing** — the gap between how much
-firms _talk_ about sustainability in their disclosures and what their
+A text-analysis study of corporate **greenwashing**, meaning the gap between how
+much firms talk about sustainability in their disclosures and what their
 environmental performance actually shows. Using public ESG reports and financial
-data, I score disclosure sentiment and language intensity, then compare it
+data, I score disclosure sentiment and language intensity, then compare that
 against realized environmental and financial outcomes to flag where green
 messaging outpaces green behavior.
 
-The full notebook — data, sentiment scoring, and figures — is on GitHub.
+The full notebook, with data, sentiment scoring, and figures, is on GitHub.

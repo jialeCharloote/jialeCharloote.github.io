@@ -4,7 +4,7 @@
     - name: Name
       value: Jiale Zhou (Charlotte)
     - name: Focus
-      value: Applied AI engineering, LLM evaluation & model behavior, and human-in-the-loop systems
+      value: Building and evaluating AI systems for high-stakes work; causal inference, LLM evals, and human-in-the-loop tools
     - name: Email
       value: jialezhou66@gmail.com
     - name: Links
@@ -17,9 +17,9 @@
 - title: AI / Data Science Focus
   type: list
   contents:
-    - Applied AI engineer with economics training — I ship production LLM agent systems end to end, from React front-ends to the agent runtime itself, and design the evals that keep their outputs trustworthy.
-    - Full-stack and data across Python, TypeScript/React, SQL, and PySpark/Databricks; hands-on with LLM evaluation (F1/BLEU/BERTScore), RAG, PEFT/LoRA fine-tuning, prompt-cost engineering, and causal inference.
-    - Seeking applied AI, AI product, model-behavior & evals, and data science roles in the San Francisco Bay Area.
+    - Economist who builds and evaluates AI systems for high-stakes work. I build the research agents and LLM tools, and design the evals that check whether they are good enough to trust.
+    - Full-stack and data across Python, TypeScript/React, SQL, and PySpark/Databricks. Hands-on with LLM evaluation (F1/BLEU/BERTScore), RAG, PEFT/LoRA fine-tuning, causal inference (DML/DiD), and prompt-cost work.
+    - Open to data science, AI engineering, AI product, and legal or applied-AI roles in the San Francisco Bay Area.
 
 - title: Technical Skills
   type: nested_list
@@ -69,8 +69,8 @@
       institution: Charles River Associates
       year: 2025 - Present
       description:
-        - Full-stack contributor to the firm's internal LLM agent platform (React/TypeScript, Express, Dockerized Claude agent runtime) — shipped 6 merged PRs across ~22K lines and 147 files in ~4 months on a ~25-person codebase
-        - Built an in-app documentation center with an AI Q&A widget end to end (UI, backend proxy, build pipeline); cut per-query LLM cost and latency via prompt caching with deterministic cache hits
+        - Full-stack contributor to the firm's internal LLM agent platform (React/TypeScript, Express, Dockerized Claude agent runtime); shipped 6 merged PRs across ~22K lines and 147 files in ~4 months on a ~25-person codebase
+        - Built an in-app documentation center with an AI Q&A widget (UI, backend proxy, build pipeline), and cut per-query LLM cost and latency with prompt caching and deterministic cache hits
         - Hardened the agent's file-read tooling with output caps and OOM short-circuits and strengthened long-session context compaction, eliminating a class of agent crashes on large datasets
         - Led the platform-wide Claude Opus 4.8 model rollout (38 files) with workflow-to-model version pinning for reproducibility; authored the team's AI-assisted coding best-practices guide, adopted as standard; trusted reviewer on 11+ merged PRs spanning the agent subagent architecture and cross-session concurrency guards
         - Built an internal footnote automation & audit tool (Python CLI + Streamlit) with FTS5/BM25 evidence retrieval, 25+ deterministic checks, and an eval harness scoring auto-generated drafts against a ground-truth key
