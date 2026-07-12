@@ -518,7 +518,7 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: var(--fs-2xl);
   }
 }
 
@@ -1322,6 +1322,20 @@ ninja-keys::part(ninja-input-wrapper) {
   --charlotte-sage: #5f7658;
   --charlotte-clay: #a85f3f;
   --charlotte-gold: #a47a2a;
+  // Type scale — ~1.2 modular ratio, single source of truth for sizes
+  --fs-xs: 0.8rem;
+  --fs-sm: 0.9rem;
+  --fs-base: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.35rem;
+  --fs-xl: 1.75rem;
+  --fs-2xl: 2.35rem;
+  // Spacing scale — replaces ad-hoc rem values for section rhythm
+  --space-1: 0.4rem;
+  --space-2: 0.65rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2.25rem;
   --global-bg-color: var(--charlotte-canvas);
   --global-card-bg-color: var(--charlotte-surface);
   --global-theme-color: var(--charlotte-teal);
@@ -1371,6 +1385,29 @@ h4,
   font-weight: 650;
 }
 
+.post-content h1,
+.post h1,
+.cv h1 {
+  font-size: var(--fs-2xl);
+}
+
+.post-content h2,
+.post h2,
+.cv h2 {
+  font-size: var(--fs-xl);
+}
+
+.post-content h3,
+.post h3,
+.cv h3 {
+  font-size: var(--fs-lg);
+}
+
+.post-content h4,
+.post h4 {
+  font-size: var(--fs-md);
+}
+
 .post-title,
 .navbar-brand.title,
 .home-hero .eyebrow {
@@ -1405,8 +1442,8 @@ h4,
 }
 
 .home-hero {
-  padding: 0.45rem 0 1.55rem;
-  margin-bottom: 1.35rem;
+  padding: var(--space-1) 0 var(--space-4);
+  margin-bottom: var(--space-4);
   border-bottom: 1px solid var(--charlotte-line);
 }
 
@@ -1421,9 +1458,9 @@ h4,
 
 .home-lede {
   max-width: 50rem;
-  margin-bottom: 1.05rem;
+  margin-bottom: var(--space-3);
   color: var(--global-text-color);
-  font-size: 1.06rem;
+  font-size: var(--fs-md);
   line-height: 1.72;
 }
 
@@ -1462,8 +1499,8 @@ h4,
 .identity-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.15rem;
-  margin: 1.35rem 0 2rem;
+  gap: var(--space-4);
+  margin: var(--space-4) 0 var(--space-5);
 }
 
 .identity-grid div {
@@ -1486,11 +1523,11 @@ h4,
 
 .identity-grid span {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--space-1);
   color: var(--global-theme-color);
-  font-size: 0.8rem;
+  font-size: var(--fs-xs);
   font-weight: 700;
-  letter-spacing: 0;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
@@ -1573,6 +1610,10 @@ h4,
   --charlotte-project-accent: var(--charlotte-teal);
 }
 
+.projects a[href*="charla"] .card {
+  --charlotte-project-accent: var(--charlotte-sage);
+}
+
 .projects a[href*="expert-report-qa-assistant"] .card {
   --charlotte-project-accent: var(--charlotte-indigo);
 }
@@ -1598,6 +1639,59 @@ h4,
 
 .projects a[href*="4_project"] .card {
   --charlotte-project-accent: var(--charlotte-indigo);
+}
+
+// Status badge — signals build state at a glance (built / prototype / blueprint)
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid var(--charlotte-line);
+  border-radius: 999px;
+  background: var(--charlotte-surface);
+  color: var(--charlotte-muted);
+  font-family: var(--charlotte-font-sans);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.status-badge::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 999px;
+  background: var(--charlotte-muted);
+}
+
+.status-badge--built {
+  color: var(--charlotte-teal);
+  border-color: var(--charlotte-teal);
+}
+
+.status-badge--built::before {
+  background: var(--charlotte-teal);
+}
+
+.status-badge--prototype {
+  color: var(--charlotte-gold);
+  border-color: var(--charlotte-gold);
+}
+
+.status-badge--prototype::before {
+  background: var(--charlotte-gold);
+}
+
+.status-badge--blueprint {
+  color: var(--charlotte-indigo);
+  border-color: var(--charlotte-indigo);
+}
+
+.status-badge--blueprint::before {
+  background: var(--charlotte-indigo);
 }
 
 .cv .card {

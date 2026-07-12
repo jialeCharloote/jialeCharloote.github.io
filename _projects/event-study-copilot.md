@@ -7,8 +7,9 @@ category: applied-ai
 related_publications: false
 ---
 
-**Status:** Public-safe blueprint  
-**Updated:** 2026-06-14
+<p><span class="status-badge status-badge--blueprint">Public-safe blueprint</span></p>
+
+_Updated: 2026-06-14_
 
 A public-data copilot for framing event windows, pulling market data, and drafting caveated event-study notes.
 

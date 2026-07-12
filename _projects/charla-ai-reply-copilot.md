@@ -4,13 +4,25 @@ title: "Charla — AI Reply Copilot"
 description: "A macOS copilot that reads your current iMessage/Slack conversation and drafts replies in your voice — local-first, bilingual, human-confirmed."
 importance: 2
 category: applied-ai
+github: https://github.com/jialeCharloote/ai_reply_copilot
 related_publications: false
 ---
 
-**Status:** Built — working CLI core loop
-**Updated:** 2026-07
+<p><span class="status-badge status-badge--built">Built · working CLI core loop</span></p>
+
+_Updated: 2026-07_
 
 A Mac desktop copilot that reads the current iMessage or Slack conversation and drafts reply candidates in your voice. Local-first by design: your style profile and feedback log live on your machine.
+
+## See It Run
+
+<!-- ASSET SLOT (Charlotte): drop a screenshot/GIF at assets/img/charla-demo.webp,
+     add `img: assets/img/charla-demo.webp` to the front matter above, then
+     uncomment the figure include below. -->
+
+<!-- {% include figure.liquid path="assets/img/charla-demo.webp" class="img-fluid rounded" alt="Charla drafting three reply candidates in the terminal" %} -->
+
+The core loop runs end to end from the terminal: point Charla at the active iMessage or Slack thread and it prints a one-line read of the conversation plus three reply candidates in your voice. Pick one, edit inline, confirm — nothing sends without you. **Source:** [github.com/jialeCharloote/ai_reply_copilot](https://github.com/jialeCharloote/ai_reply_copilot).
 
 ## Why This Matters
 

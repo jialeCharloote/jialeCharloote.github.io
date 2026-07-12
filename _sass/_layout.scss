@@ -38,7 +38,27 @@ body.sticky-bottom-footer {
   }
 }
 
-// TODO: redefine content layout.
+// Content rhythm — consistent vertical spacing for prose sections.
+// Spacing tokens (--space-*) are defined in the Charlotte :root block (_base.scss).
+.post-content,
+.page-content,
+.cv {
+  h2 {
+    margin-top: var(--space-5, 2.25rem);
+    margin-bottom: var(--space-3, 1rem);
+  }
+
+  h3 {
+    margin-top: var(--space-4, 1.5rem);
+    margin-bottom: var(--space-2, 0.65rem);
+  }
+
+  p,
+  ul,
+  ol {
+    margin-bottom: var(--space-3, 1rem);
+  }
+}
 
 /******************************************************************************
  * Publications

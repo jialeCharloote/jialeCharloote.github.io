@@ -18,11 +18,12 @@ social: True
 <section class="home-hero">
   <p class="eyebrow">Jiale Zhou 周嘉乐 / Charlotte</p>
   <p class="home-lede">
-    Hi, I am Jiale Zhou, and I also go by Charlotte. I work at the intersection of
-    economics, data systems, and applied AI &mdash; currently in Chicago, relocating to the
-    San Francisco Bay Area (fall 2026). My work is moving
-    toward practical agent workflows that make research, decision support, and everyday
-    planning more source-backed, structured, and human-guided.
+    Hi, I am Jiale Zhou &mdash; Charlotte. I build production LLM agent systems end to end,
+    from React front-ends to the agent runtime itself, and design the evals that keep their
+    outputs trustworthy. Trained as an economist, I&rsquo;m drawn to the unglamorous machinery
+    of AI quality: source-backed research agents, human-in-the-loop workflows, and decision
+    tools that never hide the evidence. Currently in Chicago, relocating to the San Francisco
+    Bay Area (fall 2026).
   </p>
   <div class="homepage-actions">
     <a href="/projects/">Selected projects</a>
@@ -50,10 +51,10 @@ social: True
   <div>
     <span>At Work</span>
     <p>
-      Economist at Charles River Associates, where I also sit on the internal AI platform
-      team &mdash; testing an LLM document-review product, writing documentation and user Q&amp;A,
-      and building internal tooling for report quality assurance, including an evaluation
-      harness that scores auto-generated citation drafts against ground truth.
+      Economic consulting associate at Charles River Associates and a full-stack contributor
+      on the internal AI platform team &mdash; I ship production code on an LLM agent runtime
+      (in-app docs with AI Q&amp;A, model rollouts, agent-tooling reliability) and build the
+      evaluation tooling that scores AI-generated drafts against ground truth.
     </p>
   </div>
   <div>
