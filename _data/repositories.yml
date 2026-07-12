@@ -1,7 +1,6 @@
 github_users:
   - jialeCharloote
 
-
 repo_description_lines_max: 4
 
 github_repos:
@@ -9,6 +8,3 @@ github_repos:
   - jialeCharloote/finbot
   - jialeCharloote/covid19-stock-forecast-replication
   - jialeCharloote/Mining-Mine
-  
-  
-

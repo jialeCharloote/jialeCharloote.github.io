@@ -20,11 +20,13 @@ pagination:
 {% assign blog_description_size = site.blog_description | size %}
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
+
   <p class="lead">{{ site.blog_name }}</p>
   <p>{{ site.blog_description }}</p>
 {% endif %}
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
+
   <p class="lead">
   {% for tag in site.display_tags %}
     <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
@@ -40,6 +42,7 @@ pagination:
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
+
   <h2 class="mb-4">Featured</h2>
   <div class="row row-cols-1 row-cols-md-2">
   {% for post in featured_posts %}
@@ -73,20 +76,22 @@ pagination:
 {% endif %}
 
 {% if page.pagination.enabled %}
-  {% assign postlist = paginator.posts %}
+{% assign postlist = paginator.posts %}
 {% else %}
-  {% assign postlist = site.posts %}
+{% assign postlist = site.posts %}
 {% endif %}
 
 {% if postlist.size == 0 %}
+
   <p>No blog posts yet. New posts coming soon.</p>
 {% endif %}
 
 {% for post in postlist %}
-  {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-  {% if post.external_source != blank %}
-    {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-  {% endif %}
+{% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+{% if post.external_source != blank %}
+{% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+{% endif %}
+
   <div class="card mb-4">
     {% if post.thumbnail %}
       <img src="{{ post.thumbnail | relative_url }}" class="card-img-top" alt="">

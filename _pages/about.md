@@ -68,11 +68,11 @@ social: True
 
 ## What I Am Building
 
-- **Charlotte Orbit** *(built, in daily use)* - a local-first assistant control plane for messages, research, wellness, career planning, and approval-gated operations.
-- **Charla — AI Reply Copilot** *(built, working core loop)* - a macOS copilot that reads the current iMessage/Slack conversation and drafts replies in your voice, with human confirmation before any send.
-- **Expert Report QA Assistant** *(design blueprint)* - a public-safe blueprint for checking citations, figures, assumptions, and internal consistency in expert-style reports.
-- **Economic Litigation Research Agent** *(design blueprint)* - a research workflow for turning public filings, company disclosures, news, and market data into cited analytical memos.
-- **Event Study Copilot** *(design blueprint)* - a public-data copilot for event-window framing, market-data validation, and caveated analysis notes.
+- **Charlotte Orbit** _(built, in daily use)_ - a local-first assistant control plane for messages, research, wellness, career planning, and approval-gated operations.
+- **Charla — AI Reply Copilot** _(built, working core loop)_ - a macOS copilot that reads the current iMessage/Slack conversation and drafts replies in your voice, with human confirmation before any send.
+- **Expert Report QA Assistant** _(design blueprint)_ - a public-safe blueprint for checking citations, figures, assumptions, and internal consistency in expert-style reports.
+- **Economic Litigation Research Agent** _(design blueprint)_ - a research workflow for turning public filings, company disclosures, news, and market data into cited analytical memos.
+- **Event Study Copilot** _(design blueprint)_ - a public-data copilot for event-window framing, market-data validation, and caveated analysis notes.
 
 ## Personal Note
 

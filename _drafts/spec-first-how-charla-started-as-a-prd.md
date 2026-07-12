@@ -23,7 +23,7 @@ OUTLINE / SKELETON — expand each section into 2–4 paragraphs. This one is yo
      bilingual EN/ZH behavior, "reply in your voice," human-confirmed sends. Show that these
      are product decisions, not implementation details. -->
 
-## Positioning: what Charla is *not*
+## Positioning: what Charla is _not_
 
 <!-- The positioning doc: most reply tools ignore voice and privacy. Naming the non-goals
      kept scope tight. A sentence or two on how that shaped the CLI core loop. -->
