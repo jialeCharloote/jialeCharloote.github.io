@@ -20,7 +20,7 @@ I talk in a mix of Chinese and English, and every dictation tool I tried made me
      add `img: assets/img/tingxie-demo.webp` to the front matter above, then
      uncomment the figure include below. -->
 
-<!-- {% include figure.liquid path="assets/img/tingxie-demo.webp" class="img-fluid rounded" alt="Holding fn, speaking, and watching the transcript paste into a text field" %} -->
+{% comment %} {% include figure.liquid path="assets/img/tingxie-demo.webp" class="img-fluid rounded" alt="Holding fn, speaking, and watching the transcript paste into a text field" %} {% endcomment %}
 
 The whole pipeline runs on-device: microphone at 16kHz, Silero VAD to find where speech starts and stops, SenseVoice for the transcription, a local LLM to clean up the result, then paste. On my machine a 5.6-second Chinese clip transcribes in 0.07 seconds, so it feels instant. **Source:** [github.com/jialeCharloote/tingxie](https://github.com/jialeCharloote/tingxie).
 

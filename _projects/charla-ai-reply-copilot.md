@@ -20,7 +20,7 @@ A Mac desktop copilot that reads the current iMessage or Slack conversation and 
      add `img: assets/img/charla-demo.webp` to the front matter above, then
      uncomment the figure include below. -->
 
-<!-- {% include figure.liquid path="assets/img/charla-demo.webp" class="img-fluid rounded" alt="Charla drafting three reply candidates in the terminal" %} -->
+{% comment %} {% include figure.liquid path="assets/img/charla-demo.webp" class="img-fluid rounded" alt="Charla drafting three reply candidates in the terminal" %} {% endcomment %}
 
 The core loop runs from the terminal. Point Charla at the active iMessage or Slack thread and it prints a one-line read of the conversation plus three reply candidates in your voice. Pick one, edit inline, and confirm. Nothing sends without you. **Source:** [github.com/jialeCharloote/ai_reply_copilot](https://github.com/jialeCharloote/ai_reply_copilot).
 

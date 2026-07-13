@@ -20,7 +20,7 @@ A local-first assistant control plane that routes personal, career, wellness, ma
      add `img: assets/img/orbit-demo.webp` to the front matter above, then
      uncomment the figure include below. -->
 
-<!-- {% include figure.liquid path="assets/img/orbit-demo.webp" class="img-fluid rounded" alt="Charlotte Orbit generating the weekly command center with pending approval items" %} -->
+{% comment %} {% include figure.liquid path="assets/img/orbit-demo.webp" class="img-fluid rounded" alt="Charlotte Orbit generating the weekly command center with pending approval items" %} {% endcomment %}
 
 One command initializes the local control plane and seeds the CharlotteOS folders; from there, a single natural-language request routes to the right specialist agent, and the weekly command center surfaces scored signals and approval-gated actions. **Source:** [github.com/jialeCharloote/charlotte-orbit](https://github.com/jialeCharloote/charlotte-orbit).
 
