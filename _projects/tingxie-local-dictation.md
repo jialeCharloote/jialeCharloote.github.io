@@ -16,7 +16,7 @@ I talk in a mix of Chinese and English, and every dictation tool I tried made me
 
 ## See It Run
 
-<video controls playsinline preload="metadata" class="rounded z-depth-1" style="max-width: 400px; width: 100%; display: block; margin: 0 auto 1rem;">
+<video controls playsinline preload="metadata" poster="/assets/img/tingxie-poster.png" class="rounded z-depth-1" style="max-width: 400px; width: 100%; display: block; margin: 0 auto 1rem;">
   <source src="/assets/video/tingxie-demo.mp4" type="video/mp4">
   Your browser doesn't support embedded video —
   <a href="/assets/video/tingxie-demo.mp4">download the demo</a> instead.
