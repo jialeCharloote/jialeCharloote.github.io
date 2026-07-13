@@ -203,7 +203,7 @@ By continuing to analyze this dataset, researchers can gain valuable insights in
 
 - **Drake, M. S., Roulstone, D. T., & Thornock, J. R.** (2020). _EDGAR search and download activity: Institutional investors' behavior and its impact on stock prices._ Journal of Financial Economics, 135(2), 537-558. [https://doi.org/10.1016/j.jfineco.2019.07.009](https://doi.org/10.1016/j.jfineco.2019.07.009)
 
-- **Loughran, T., & McDonald, B.** (2017). _The use of word lists in textual analysis._ Journal of Behavioral Finance, 18(3), 233-246. [https://doi.org/10.1080/15427560.2017.1340970](https://doi.org/10.1080/15427560.2017.1340970)
+- **Loughran, T., & McDonald, B.** (2015). _The use of word lists in textual analysis._ Journal of Behavioral Finance, 16(1), 1-11. [https://doi.org/10.1080/15427560.2015.1000335](https://doi.org/10.1080/15427560.2015.1000335)
 
 - **Ryans, J. K.** (2017). _EDGAR and the effect of automated data retrieval on financial markets._ Journal of Accounting Research, 55(2), 471-502. [https://doi.org/10.1111/1475-679X.12132](https://doi.org/10.1111/1475-679X.12132)
 
