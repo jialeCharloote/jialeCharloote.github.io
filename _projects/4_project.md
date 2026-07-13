@@ -199,13 +199,13 @@ By continuing to analyze this dataset, researchers can gain valuable insights in
 
 ## VI. References
 
-- **Drake, M. S., Roulstone, D. T., & Thornock, J. R.** (2015). _The determinants and consequences of information acquisition via EDGAR._ Contemporary Accounting Research, 32(3), 1128-1161. [https://doi.org/10.1111/1911-3846.12094](https://doi.org/10.1111/1911-3846.12094)
+- **Drake, M. S., Roulstone, D. T., & Thornock, J. R.** (2015). _The determinants and consequences of information acquisition via EDGAR._ Contemporary Accounting Research, 32(3), 1128-1161. [https://doi.org/10.1111/1911-3846.12119](https://doi.org/10.1111/1911-3846.12119)
 
-- **Drake, M. S., Roulstone, D. T., & Thornock, J. R.** (2020). _EDGAR search and download activity: Institutional investors' behavior and its impact on stock prices._ Journal of Financial Economics, 135(2), 537-558. [https://doi.org/10.1016/j.jfineco.2019.07.009](https://doi.org/10.1016/j.jfineco.2019.07.009)
+- **Drake, M. S., Johnson, B. A., Roulstone, D. T., & Thornock, J. R.** (2020). _Is there information content in information acquisition?_ The Accounting Review, 95(2), 113-139. [https://doi.org/10.2308/accr-52498](https://doi.org/10.2308/accr-52498)
 
 - **Loughran, T., & McDonald, B.** (2015). _The use of word lists in textual analysis._ Journal of Behavioral Finance, 16(1), 1-11. [https://doi.org/10.1080/15427560.2015.1000335](https://doi.org/10.1080/15427560.2015.1000335)
 
-- **Ryans, J. K.** (2017). _EDGAR and the effect of automated data retrieval on financial markets._ Journal of Accounting Research, 55(2), 471-502. [https://doi.org/10.1111/1475-679X.12132](https://doi.org/10.1111/1475-679X.12132)
+- **Ryans, J.** (2017). _Using the EDGAR log file data set._ Working paper. [https://doi.org/10.2139/ssrn.2913612](https://doi.org/10.2139/ssrn.2913612)
 
 ---
 
