@@ -16,11 +16,13 @@ I talk in a mix of Chinese and English, and every dictation tool I tried made me
 
 ## See It Run
 
-<!-- ASSET SLOT (Charlotte): drop a screen recording at assets/img/tingxie-demo.webp,
-     add `img: assets/img/tingxie-demo.webp` to the front matter above, then
-     uncomment the figure include below. -->
+<video controls playsinline preload="metadata" class="rounded z-depth-1" style="max-width: 400px; width: 100%; display: block; margin: 0 auto 1rem;">
+  <source src="/assets/video/tingxie-demo.mp4" type="video/mp4">
+  Your browser doesn't support embedded video —
+  <a href="/assets/video/tingxie-demo.mp4">download the demo</a> instead.
+</video>
 
-{% comment %} {% include figure.liquid path="assets/img/tingxie-demo.webp" class="img-fluid rounded" alt="Holding fn, speaking, and watching the transcript paste into a text field" %} {% endcomment %}
+<p style="text-align: center;"><small>Speaking mixed 中文/English with filler words — live transcript rolls in the pill, raw text pastes instantly, the polished version swaps in. Second take: shift+fn pastes the English translation. Sound on 🔊</small></p>
 
 The whole pipeline runs on-device: microphone at 16kHz, Silero VAD to find where speech starts and stops, SenseVoice for the transcription, a local LLM to clean up the result, then paste. On my machine a 5.6-second Chinese clip transcribes in 0.07 seconds, so it feels instant. **Source:** [github.com/jialeCharloote/tingxie](https://github.com/jialeCharloote/tingxie).
 
