@@ -2,7 +2,7 @@
 layout: page
 title: "Economic Litigation Research Agent"
 description: "A research agent that turns public filings, company disclosures, news, and market data into a cited analytical memo."
-importance: 3
+importance: 4
 category: applied-ai
 related_publications: false
 ---

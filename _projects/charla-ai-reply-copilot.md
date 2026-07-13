@@ -2,7 +2,7 @@
 layout: page
 title: "Charla — AI Reply Copilot"
 description: "A macOS copilot that reads your current iMessage/Slack conversation and drafts replies in your voice — local-first, bilingual, human-confirmed."
-importance: 2
+importance: 3
 category: applied-ai
 github: https://github.com/jialeCharloote/ai_reply_copilot
 related_publications: false

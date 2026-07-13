@@ -2,7 +2,7 @@
 layout: page
 title: "Expert Report QA Assistant"
 description: "A public-safe report QA workflow that checks citations, figures, assumptions, and internal consistency in synthetic expert-style reports."
-importance: 2
+importance: 3
 category: applied-ai
 related_publications: false
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: "Charlotte Orbit"
 description: "A local-first assistant control plane that routes personal, career, wellness, market, and operations requests through specialized agents with approval gates."
-importance: 1
+importance: 2
 category: applied-ai
 github: https://github.com/jialeCharloote/charlotte-orbit
 related_publications: false

@@ -2,7 +2,7 @@
 layout: page
 title: "Event Study Copilot"
 description: "A public-data copilot for framing event windows, pulling market data, and drafting caveated event-study notes."
-importance: 4
+importance: 5
 category: applied-ai
 related_publications: false
 ---
