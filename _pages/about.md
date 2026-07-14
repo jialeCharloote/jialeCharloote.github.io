@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Chicago, IL &rarr; San Francisco Bay Area</p>
     <p><a href="mailto:jialezhou66@gmail.com">jialezhou66@gmail.com</a></p>
 
 social: True
@@ -20,10 +19,9 @@ social: True
   <p class="home-lede">
     Hi, I am Jiale Zhou, and I also go by Charlotte. I am an economist who builds and
     evaluates AI systems for high-stakes work, where a confident wrong answer is expensive.
-    I build the research agents and LLM tools, and I write the evals that decide whether they
+    I build research agents and LLM tools, and I care about the evals that decide whether they
     are good enough to trust. My background is economics and causal inference, so I came to AI
-    already trained to distrust my own numbers. I am in Chicago now, moving to the SF Bay Area
-    this fall.
+    already trained to distrust my own numbers.
   </p>
   <div class="homepage-actions">
     <a href="/projects/">Selected projects</a>
