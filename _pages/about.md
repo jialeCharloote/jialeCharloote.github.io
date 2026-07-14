@@ -53,9 +53,12 @@ social: True
     <span>At Work</span>
     <p>
       I am an economic consulting associate at Charles River Associates, and I also work on
-      the internal AI platform team. I ship production code on our LLM agent runtime (in-app
-      docs with AI Q&amp;A, model rollouts, agent-tooling reliability), and I build the eval
-      tooling that scores AI-generated drafts against a ground-truth key.
+      the firm's internal AI platform team. The platform encodes our economists' methodologies
+      as structured prompts and verification workflows that constrain an LLM document-review
+      product &mdash; I write methodology prompts, contribute to the platform's UX, debug from
+      real user issues, and build human-vs-AI comparison datasets to localize model errors.
+      I also built the eval tooling that scores AI-generated citation drafts against a
+      ground-truth key.
     </p>
   </div>
   <div>
